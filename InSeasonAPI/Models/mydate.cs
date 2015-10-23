@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace InSeasonAPI.Models
 {
-    class Places
+    class mydate
     {
-        public Location location { get; set; }
+        public string starts { get; set; }
+        public string ends { get; set; }
     }
 }

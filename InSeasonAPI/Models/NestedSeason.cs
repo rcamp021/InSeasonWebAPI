@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace InSeasonAPI.Models
 {
-    class Places
+    class NestedSeason
     {
-        public Location location { get; set; }
+        public mydate date { get; set; }
+        public List<string> days { get; set; }
     }
 }
