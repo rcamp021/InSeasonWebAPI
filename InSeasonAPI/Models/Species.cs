@@ -8,5 +8,10 @@ namespace InSeasonAPI.Models
 {
     class Species
     {
+        public int bova_id { get; set; }
+
+        public string name { get; set; }
+        
+        public string taxonomy { get; set; }
     }
 }
