@@ -1,22 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using LinqToExcel;
-using System.IO;
+using InSeasonAPI.Models;
 
 namespace InSeasonAPI.Utils
 {
     class Converter
     {
-        public object Convert()
+        private IExcelQueryFactory excelQueryFactory;
+
+        public Converter ()
         {
-           // using (StreamReader sr = new StreamReader(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/crow.json")))
-           // {
-                var excel = new ExcelQueryFactory(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/crow.json"));
-            //}
-            return (from x in excel.Worksheet<object>() select x).FirstOrDefault();
+            this.excelQueryFactory = new ExcelQueryFactory(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/GNIS-County-Definitions.csv"));
         }
+
+        public GnisCountyDefinition GnisToCounty(int gnis)
+        {
+            return (from x in excelQueryFactory.Worksheet<GnisCountyDefinition>() where x.FEATURE_ID == gnis select x).FirstOrDefault();
+        }
+
+        public GnisCountyDefinition CountyToGnis(int county)
+        {
+            return (from x in excelQueryFactory.Worksheet<GnisCountyDefinition>() where x.COUNTY_NUMERIC == county select x).FirstOrDefault();
+        }
+
     }
 }

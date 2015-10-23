@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Web.Http;
 using Newtonsoft.Json;
@@ -15,12 +16,30 @@ namespace InSeasonAPI.Controllers
             return this.Ok("WHUT");
         }
 
-        [Route("test")]
-        public string GetTest()
+        /// <summary>
+        /// Get a county from a county code
+        /// </summary>
+        /// <param name="county"></param>
+        /// <returns></returns>
+        [Route("getCountyLocation/{county}")]
+        public IHttpActionResult CountyToGnis(string county)
         {
-            var data = getdata();
+            var data = new Utils.Converter().CountyToGnis(Int32.Parse(county));
 
-            return data.ToString();
+            return this.Ok(data);
+        }
+
+        /// <summary>
+        /// Get a county from a gnis identifier
+        /// </summary>
+        /// <param name="gnis"></param>
+        /// <returns></returns>
+        [Route("getGnisLocation/{gnis}")]
+        public IHttpActionResult GnisToCounty(string gnis)
+        {
+            var data = new Utils.Converter().GnisToCounty(Int32.Parse(gnis));
+
+            return this.Ok(data);
         }
 
         private Hunting getdata()

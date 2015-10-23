@@ -1,0 +1,903 @@
+FEATURE_ID,COUNTY_NUMERIC,FEATURE_NAME,COUNTY_NAME,STATE_ALPHA,STATE_NUMERIC
+1470191,101,Mattaponi Reservation,King William,VA,51
+1472036,101,Pamunkey Reservation,King William,VA,51
+1479941,550,Deep Creek Borough,Chesapeake (city),VA,51
+1479942,800,Cypress Borough,Suffolk (city),VA,51
+1479943,800,Chuckatuck Borough,Suffolk (city),VA,51
+1479944,740,Western Branch Borough,Portsmouth (city),VA,51
+1479945,550,South Norfolk Borough,Chesapeake (city),VA,51
+1479946,800,Sleepy Hole Borough,Suffolk (city),VA,51
+1480091,1,Accomack County,Accomack,VA,51
+1480095,9,Amherst County,Amherst,VA,51
+1480097,13,Arlington County,Arlington,VA,51
+1480098,15,Augusta County,Augusta,VA,51
+1480107,33,Caroline County,Caroline,VA,51
+1480108,35,Carroll County,Carroll,VA,51
+1480109,36,Charles City County,Charles City,VA,51
+1480111,41,Chesterfield County,Chesterfield,VA,51
+1480118,57,Essex County,Essex,VA,51
+1480119,59,Fairfax County,Fairfax,VA,51
+1480120,61,Fauquier County,Fauquier,VA,51
+1480124,69,Frederick County,Frederick,VA,51
+1480126,73,Gloucester County,Gloucester,VA,51
+1480129,79,Greene County,Greene,VA,51
+1480132,85,Hanover County,Hanover,VA,51
+1480133,87,Henrico County,Henrico,VA,51
+1480135,95,James City County,James City,VA,51
+1480136,97,King and Queen County,King and Queen,VA,51
+1480137,99,King George County,King George,VA,51
+1480138,101,King William County,King William,VA,51
+1480139,103,Lancaster County,Lancaster,VA,51
+1480141,107,Loudoun County,Loudoun,VA,51
+1480145,115,Mathews County,Mathews,VA,51
+1480147,119,Middlesex County,Middlesex,VA,51
+1480150,127,New Kent County,New Kent,VA,51
+1480151,131,Northampton County,Northampton,VA,51
+1480152,133,Northumberland County,Northumberland,VA,51
+1480157,143,Pittsylvania County,Pittsylvania,VA,51
+1480160,149,Prince George County,Prince George,VA,51
+1480161,153,Prince William County,Prince William,VA,51
+1480164,159,Richmond County,Richmond,VA,51
+1480165,161,Roanoke County,Roanoke,VA,51
+1480166,163,Rockbridge County,Rockbridge,VA,51
+1480171,175,Southampton County,Southampton,VA,51
+1480172,177,Spotsylvania County,Spotsylvania,VA,51
+1480173,179,Stafford County,Stafford,VA,51
+1480174,181,Surry County,Surry,VA,51
+1480179,193,Westmoreland County,Westmoreland,VA,51
+1480182,199,York County,York,VA,51
+1488970,165,Rockingham County,Rockingham,VA,51
+1492239,111,Lunenburg County,Lunenburg,VA,51
+1492359,147,Prince Edward County,Prince Edward,VA,51
+1492442,37,Charlotte County,Charlotte,VA,51
+1493928,135,Nottoway County,Nottoway,VA,51
+1493961,25,Brunswick County,Brunswick,VA,51
+1494061,65,Fluvanna County,Fluvanna,VA,51
+1494109,49,Cumberland County,Cumberland,VA,51
+1494354,63,Floyd County,Floyd,VA,51
+1494434,67,Franklin County,Franklin,VA,51
+1494551,71,Giles County,Giles,VA,51
+1494590,113,Madison County,Madison,VA,51
+1494613,21,Bland County,Bland,VA,51
+1494707,109,Louisa County,Louisa,VA,51
+1494761,137,Orange County,Orange,VA,51
+1496538,105,Lee County,Lee,VA,51
+1496656,195,Wise County,Wise,VA,51
+1496705,83,Halifax County,Halifax,VA,51
+1497238,11,Appomattox County,Appomattox,VA,51
+1497376,51,Dickenson County,Dickenson,VA,51
+1497431,27,Buchanan County,Buchanan,VA,51
+1497573,167,Russell County,Russell,VA,51
+1497748,185,Tazewell County,Tazewell,VA,51
+1497770,7,Amelia County,Amelia,VA,51
+1497831,47,Culpeper County,Culpeper,VA,51
+1497999,141,Patrick County,Patrick,VA,51
+1498172,169,Scott County,Scott,VA,51
+1498359,191,Washington County,Washington,VA,51
+1498415,510,City of Alexandria,Alexandria (city),VA,51
+1498416,520,City of Bristol,Bristol (city),VA,51
+1498417,530,City of Buena Vista,Buena Vista (city),VA,51
+1498419,5,Clifton Forge (historical),Alleghany,VA,51
+1498420,570,City of Colonial Heights,Colonial Heights (city),VA,51
+1498421,590,City of Danville,Danville (city),VA,51
+1498422,595,City of Emporia,Emporia (city),VA,51
+1498423,610,City of Falls Church,Falls Church (city),VA,51
+1498424,620,City of Franklin,Franklin (city),VA,51
+1498425,630,City of Fredericksburg,Fredericksburg (city),VA,51
+1498426,640,City of Galax,Galax (city),VA,51
+1498428,670,City of Hopewell,Hopewell (city),VA,51
+1498429,680,City of Lynchburg,Lynchburg (city),VA,51
+1498430,683,City of Manassas,Manassas (city),VA,51
+1498431,685,City of Manassas Park,Manassas Park (city),VA,51
+1498434,720,City of Norton,Norton (city),VA,51
+1498435,730,City of Petersburg,Petersburg (city),VA,51
+1498436,735,City of Poquoson,Poquoson (city),VA,51
+1498438,750,City of Radford,Radford (city),VA,51
+1498439,770,City of Roanoke,Roanoke (city),VA,51
+1498440,83,City of South Boston (historical),Halifax,VA,51
+1498443,820,City of Waynesboro,Waynesboro (city),VA,51
+1498554,650,City of Hampton,Hampton (city),VA,51
+1498555,700,City of Newport News,Newport News (city),VA,51
+1498556,740,City of Portsmouth,Portsmouth (city),VA,51
+1498557,710,City of Norfolk,Norfolk (city),VA,51
+1498558,550,City of Chesapeake,Chesapeake (city),VA,51
+1498559,810,City of Virginia Beach,Virginia Beach (city),VA,51
+1498560,800,City of Suffolk,Suffolk (city),VA,51
+1498563,660,City of Harrisonburg,Harrisonburg (city),VA,51
+1500440,139,Page County,Page,VA,51
+1500545,173,Smyth County,Smyth,VA,51
+1500747,117,Mecklenburg County,Mecklenburg,VA,51
+1500936,125,Nelson County,Nelson,VA,51
+1501122,81,Greensville County,Greensville,VA,51
+1501196,77,Grayson County,Grayson,VA,51
+1501379,197,Wythe County,Wythe,VA,51
+1501465,155,Pulaski County,Pulaski,VA,51
+1501502,29,Buckingham County,Buckingham,VA,51
+1502770,89,Henry County,Henry,VA,51
+1673638,17,Bath County,Bath,VA,51
+1673664,45,Craig County,Craig,VA,51
+1673675,5,Alleghany County,Alleghany,VA,51
+1673774,91,Highland County,Highland,VA,51
+1673918,171,Shenandoah County,Shenandoah,VA,51
+1673976,157,Rappahannock County,Rappahannock,VA,51
+1674058,187,Warren County,Warren,VA,51
+1674225,145,Powhatan County,Powhatan,VA,51
+1674271,75,Goochland County,Goochland,VA,51
+1674418,23,Botetourt County,Botetourt,VA,51
+1674630,121,Montgomery County,Montgomery,VA,51
+1674818,19,Bedford County,Bedford,VA,51
+1674917,31,Campbell County,Campbell,VA,51
+1675170,3,Albemarle County,Albemarle,VA,51
+1690257,183,Sussex County,Sussex,VA,51
+1690562,43,Clarke County,Clarke,VA,51
+1690739,53,Dinwiddie County,Dinwiddie,VA,51
+1702378,93,Isle of Wight County,Isle of Wight,VA,51
+1707510,800,Nansemond County (historical),Suffolk (city),VA,51
+1779803,29,Commonwealth of Virginia,Buckingham,VA,51
+1789068,540,City of Charlottesville,Charlottesville (city),VA,51
+1789069,580,City of Covington,Covington (city),VA,51
+1789070,600,City of Fairfax,Fairfax (city),VA,51
+1789071,678,City of Lexington,Lexington (city),VA,51
+1789072,690,City of Martinsville,Martinsville (city),VA,51
+1789073,760,City of Richmond,Richmond (city),VA,51
+1789074,775,City of Salem,Salem (city),VA,51
+1789075,790,City of Staunton,Staunton (city),VA,51
+1789076,830,City of Williamsburg,Williamsburg (city),VA,51
+1789077,840,City of Winchester,Winchester (city),VA,51
+1793650,515,City of Bedford,Bedford (city),VA,51
+1927074,73,Abingdon District,Gloucester,VA,51
+1927075,101,Acquinton District,King William,VA,51
+1927076,31,Altavista District,Campbell,VA,51
+1927077,23,Amsterdam District,Botetourt,VA,51
+1927078,179,Aquia District,Stafford,VA,51
+1927079,165,Ashby District,Rockingham,VA,51
+1927080,85,Ashland District,Hanover,VA,51
+1927081,173,Atkins District,Smyth,VA,51
+1927082,69,Back Creek District,Frederick,VA,51
+1927083,37,Bacon District,Charlotte,VA,51
+1927084,181,Bacons Castle District,Surry,VA,51
+1927085,143,Banister District,Pittsylvania,VA,51
+1927086,177,Battlefield District,Spotsylvania,VA,51
+1927087,103,Bayside District (historical),Lancaster,VA,51
+1927088,111,Beaver Creek District,Lunenburg,VA,51
+1927089,85,Beaverdam District,Hanover,VA,51
+1927090,81,Belfield Magisterial District,Greensville,VA,51
+1927091,95,Berkeley District,James City,VA,51
+1927092,177,Berkeley District,Spotsylvania,VA,51
+1927093,175,Berlin and Ivor District,Southampton,VA,51
+1927094,41,Bermuda District,Chesterfield,VA,51
+1927095,43,Berryville District,Clarke,VA,51
+1927096,15,Beverley Manor District,Augusta,VA,51
+1927097,197,Black Lick District,Wythe,VA,51
+1927098,89,Blackberry District,Henry,VA,51
+1927099,67,Blackwater District,Franklin,VA,51
+1927100,149,Blackwater District,Prince George,VA,51
+1927101,149,Bland District,Prince George,VA,51
+1927102,91,Blue Grass District,Highland,VA,51
+1927103,19,Blue Ridge District,Bedford,VA,51
+1927104,23,Blue Ridge District,Botetourt,VA,51
+1927105,67,Blue Ridge District,Franklin,VA,51
+1927106,107,Blue Ridge District,Loudoun,VA,51
+1927107,141,Blue Ridge District,Patrick,VA,51
+1927108,5,Boiling Springs District,Alleghany,VA,51
+1927109,67,Boone District,Franklin,VA,51
+1927110,33,Bowling Green District,Caroline,VA,51
+1927111,175,Boykins and Branchville District,Southampton,VA,51
+1927112,59,Braddock District,Fairfax,VA,51
+1927113,149,Brandon District,Prince George,VA,51
+1927114,153,Brentsville District,Prince William,VA,51
+1927115,107,Broad Run District,Loudoun,VA,51
+1927116,87,Brookland District,Henrico,VA,51
+1927117,31,Brookneal District,Campbell,VA,51
+1927118,111,Browns Store District,Lunenburg,VA,51
+1927119,23,Buchanan District,Botetourt,VA,51
+1927120,43,Buckmarsh District,Clarke,VA,51
+1927121,97,Buena Vista District,King and Queen,VA,51
+1927122,163,Buffalo District,Rockbridge,VA,51
+1927123,63,Burks Fork District,Floyd,VA,51
+1927124,143,Callands-Gretna District,Pittsylvania,VA,51
+1927125,175,Capron District,Southampton,VA,51
+1927126,93,Carrsville District,Isle of Wight,VA,51
+1927127,181,Carsley District,Surry,VA,51
+1927128,167,Castlewood District,Russell,VA,51
+1927129,47,Catalpa District,Culpeper,VA,51
+1927130,161,Catawba District,Roanoke,VA,51
+1927131,107,Catoctin District,Loudoun,VA,51
+1927132,161,Cave Spring District,Roanoke,VA,51
+1927133,17,Cedar Creek District,Bath,VA,51
+1927134,47,Cedar Mountain District,Culpeper,VA,51
+1927135,61,Cedar Run District,Fauquier,VA,51
+1927136,19,Center District,Bedford,VA,51
+1927137,61,Center District,Fauquier,VA,51
+1927138,37,Central District,Charlotte,VA,51
+1927139,57,Central District,Essex,VA,51
+1927140,71,Central District,Giles,VA,51
+1927141,165,Central District,Rockingham,VA,51
+1927142,177,Chancellor District,Spotsylvania,VA,51
+1927143,143,Chatham-Blairs District,Pittsylvania,VA,51
+1927144,115,Chesapeake District,Mathews,VA,51
+1927145,36,Chickahominy Magisterial District,Charles City,VA,51
+1927146,85,Chickahominy District,Hanover,VA,51
+1927147,173,Chilhowie District,Smyth,VA,51
+1927148,103,Christ Church District (historical),Lancaster,VA,51
+1927149,181,Claremont District,Surry,VA,51
+1927150,5,Clifton District (historical),Alleghany,VA,51
+1927151,51,Clintwood District,Dickenson,VA,51
+1927152,11,Clover Hill District (historical),Appomattox,VA,51
+1927153,41,Clover Hill District,Chesterfield,VA,51
+1927154,155,Cloyd District,Pulaski,VA,51
+1927155,85,Cold Harbor District,Hanover,VA,51
+1927156,153,Coles District,Prince William,VA,51
+1927157,89,Collinsville District,Henry,VA,51
+1927158,65,Columbia District,Fluvanna,VA,51
+1927159,31,Concord District,Campbell,VA,51
+1927160,193,Cople District,Westmoreland,VA,51
+1927161,63,Court House District,Floyd,VA,51
+1927162,183,Courthouse District,Sussex,VA,51
+1927163,177,Courtland District,Spotsylvania,VA,51
+1927165,45,Craig City District,Craig,VA,51
+1927166,45,Craig Creek District,Craig,VA,51
+1927167,109,Cuckoo District,Louisa,VA,51
+1927168,65,Cunningham District,Fluvanna,VA,51
+1927169,29,"District 2, Curdsville (historical)",Buckingham,VA,51
+1927170,99,Dahlgren District,King George,VA,51
+1927171,41,Dale District,Chesterfield,VA,51
+1927172,141,Dan River District,Patrick,VA,51
+1927173,143,Dan River District,Pittsylvania,VA,51
+1927174,181,Dendron District,Surry,VA,51
+1927175,1,District 1,Accomack,VA,51
+1927176,7,District 1,Amelia,VA,51
+1927177,9,District 1,Amherst,VA,51
+1927178,49,District 1,Cumberland,VA,51
+1927179,53,District 1,Dinwiddie,VA,51
+1927180,75,District 1,Goochland,VA,51
+1927181,83,District 1,Halifax,VA,51
+1927182,105,District 1,Lee,VA,51
+1927183,117,District 1,Mecklenburg,VA,51
+1927184,127,District 1,New Kent,VA,51
+1927185,131,District 1,Northampton,VA,51
+1927186,133,District 1,Northumberland,VA,51
+1927187,135,District 1,Nottoway,VA,51
+1927188,137,District 1,Orange,VA,51
+1927189,145,District 1,Powhatan,VA,51
+1927190,159,District 1,Richmond,VA,51
+1927191,169,District 1,Scott,VA,51
+1927192,171,District 1,Shenandoah,VA,51
+1927193,195,District 1,Wise,VA,51
+1927194,199,District 1,York,VA,51
+1927195,147,District 101,Prince Edward,VA,51
+1927196,1,District 2,Accomack,VA,51
+1927197,7,District 2,Amelia,VA,51
+1927198,9,District 2,Amherst,VA,51
+1927199,49,District 2,Cumberland,VA,51
+1927200,53,District 2,Dinwiddie,VA,51
+1927201,75,District 2,Goochland,VA,51
+1927202,83,District 2,Halifax,VA,51
+1927203,105,District 2,Lee,VA,51
+1927204,117,District 2,Mecklenburg,VA,51
+1927205,127,District 2,New Kent,VA,51
+1927206,131,District 2,Northampton,VA,51
+1927207,133,District 2,Northumberland,VA,51
+1927208,135,District 2,Nottoway,VA,51
+1927209,137,District 2,Orange,VA,51
+1927210,145,District 2,Powhatan,VA,51
+1927211,159,District 2,Richmond,VA,51
+1927212,169,District 2,Scott,VA,51
+1927213,171,District 2,Shenandoah,VA,51
+1927214,195,District 2,Wise,VA,51
+1927215,199,District 2,York,VA,51
+1927216,147,District 201,Prince Edward,VA,51
+1927217,1,District 3,Accomack,VA,51
+1927218,7,District 3,Amelia,VA,51
+1927219,9,District 3,Amherst,VA,51
+1927220,49,District 3,Cumberland,VA,51
+1927221,53,District 3,Dinwiddie,VA,51
+1927222,75,District 3,Goochland,VA,51
+1927223,83,District 3,Halifax,VA,51
+1927224,105,District 3,Lee,VA,51
+1927225,117,District 3,Mecklenburg,VA,51
+1927226,127,District 3,New Kent,VA,51
+1927227,131,District 3,Northampton,VA,51
+1927228,133,District 3,Northumberland,VA,51
+1927229,135,District 3,Nottoway,VA,51
+1927230,137,District 3,Orange,VA,51
+1927231,145,District 3,Powhatan,VA,51
+1927232,159,District 3,Richmond,VA,51
+1927233,171,District 3,Shenandoah,VA,51
+1927234,195,District 3,Wise,VA,51
+1927235,199,District 3,York,VA,51
+1927236,147,District 301,Prince Edward,VA,51
+1927237,1,District 4,Accomack,VA,51
+1927238,7,District 4,Amelia,VA,51
+1927239,9,District 4,Amherst,VA,51
+1927240,49,District 4,Cumberland,VA,51
+1927241,53,District 4,Dinwiddie,VA,51
+1927242,75,District 4,Goochland,VA,51
+1927243,83,District 4,Halifax,VA,51
+1927244,105,District 4,Lee,VA,51
+1927245,117,District 4,Mecklenburg,VA,51
+1927246,127,District 4,New Kent,VA,51
+1927247,131,District 4,Northampton,VA,51
+1927248,133,District 4,Northumberland,VA,51
+1927249,135,District 4,Nottoway,VA,51
+1927250,137,District 4,Orange,VA,51
+1927251,145,District 4,Powhatan,VA,51
+1927252,159,District 4,Richmond,VA,51
+1927253,169,District 4,Scott,VA,51
+1927254,171,District 4,Shenandoah,VA,51
+1927255,195,District 4,Wise,VA,51
+1927256,199,District 4,York,VA,51
+1927257,147,District 401,Prince Edward,VA,51
+1927258,1,District 5,Accomack,VA,51
+1927259,7,District 5,Amelia,VA,51
+1927260,9,District 5,Amherst,VA,51
+1927261,49,District 5,Cumberland,VA,51
+1927262,53,District 5,Dinwiddie,VA,51
+1927263,75,District 5,Goochland,VA,51
+1927264,83,District 5,Halifax,VA,51
+1927265,105,District 5,Lee,VA,51
+1927266,117,District 5,Mecklenburg,VA,51
+1927267,127,District 5,New Kent,VA,51
+1927268,131,District 5,Northampton,VA,51
+1927269,133,District 5,Northumberland,VA,51
+1927270,135,District 5,Nottoway,VA,51
+1927271,137,District 5,Orange,VA,51
+1927272,145,District 5,Powhatan,VA,51
+1927273,159,District 5,Richmond,VA,51
+1927274,169,District 5,Scott,VA,51
+1927275,171,District 5,Shenandoah,VA,51
+1927276,199,District 5,York,VA,51
+1927277,147,District 501,Prince Edward,VA,51
+1927278,1,District 6,Accomack,VA,51
+1927279,83,District 6,Halifax,VA,51
+1927280,117,District 6,Mecklenburg,VA,51
+1927281,131,District 6,Northampton,VA,51
+1927282,169,District 6,Scott,VA,51
+1927283,171,District 6,Shenandoah,VA,51
+1927284,147,District 601,Prince Edward,VA,51
+1927285,1,District 7,Accomack,VA,51
+1927286,83,District 7,Halifax,VA,51
+1927287,117,District 7,Mecklenburg,VA,51
+1927288,147,District 701,Prince Edward,VA,51
+1927289,1,District 8,Accomack,VA,51
+1927290,83,District 8,Halifax,VA,51
+1927291,117,District 8,Mecklenburg,VA,51
+1927292,147,District 801,Prince Edward,VA,51
+1927293,1,District 9,Accomack,VA,51
+1927294,117,District 9,Mecklenburg,VA,51
+1927295,121,District A-91 (historical),Montgomery,VA,51
+1927296,121,District B-91 (historical),Montgomery,VA,51
+1927297,121,District C-91 (historical),Montgomery,VA,51
+1927298,121,District D-91 (historical),Montgomery,VA,51
+1927299,121,District E-91 (historical),Montgomery,VA,51
+1927300,121,District F-91 (historical),Montgomery,VA,51
+1927301,121,District G-91 (historical),Montgomery,VA,51
+1927302,59,Dranesville District,Fairfax,VA,51
+1927303,155,Draper District,Pulaski,VA,51
+1927304,175,Drewryville District,Southampton,VA,51
+1927305,107,Dulles District,Loudoun,VA,51
+1927306,153,Dumfries District,Prince William,VA,51
+1927307,47,East Fairfax District,Culpeper,VA,51
+1927308,139,"District 2, East Luray",Page,VA,51
+1927309,197,East Wytheville District,Wythe,VA,51
+1927310,71,Eastern District,Giles,VA,51
+1927311,185,Eastern District,Tazewell,VA,51
+1927312,77,Elk Creek District,Grayson,VA,51
+1927313,51,Ervinton District,Dickenson,VA,51
+1927314,87,Fairfield District,Henrico,VA,51
+1927315,5,Falling Spring District,Alleghany,VA,51
+1927316,179,Falmouth District,Stafford,VA,51
+1927317,35,Fancy Gap District,Carroll,VA,51
+1927318,23,Fincastle District,Botetourt,VA,51
+1927319,187,Fork District,Warren,VA,51
+1927320,65,Fork Union District,Fluvanna,VA,51
+1927321,197,Fort Chiswell District,Wythe,VA,51
+1927322,29,"District 3, Francisco (historical)",Buckingham,VA,51
+1927323,175,Franklin District,Southampton,VA,51
+1927324,69,Gainesboro District,Frederick,VA,51
+1927325,153,Gainesville District,Prince William,VA,51
+1927326,27,Garden District,Buchanan,VA,51
+1927327,179,George Washington District,Stafford,VA,51
+1927328,67,Gills Creek District,Franklin,VA,51
+1927329,73,Gloucester Point District,Gloucester,VA,51
+1927330,29,"District 7, Gold Hill (historical)",Buckingham,VA,51
+1927331,109,Green Spring District,Louisa,VA,51
+1927332,179,Griffis-Widewater District,Stafford,VA,51
+1927333,157,Hampton District,Rappahannock,VA,51
+1927334,187,Happy Creek District,Warren,VA,51
+1927335,93,Hardy District,Isle of Wight,VA,51
+1927336,36,Harrison Magisterial District,Charles City,VA,51
+1927337,191,Harrison District,Washington,VA,51
+1927338,179,Hartwood District,Stafford,VA,51
+1927339,85,Henry District,Hanover,VA,51
+1927340,183,Henry District,Sussex,VA,51
+1927341,81,Hicksford District (historical),Greensville,VA,51
+1927342,161,Hollins District,Roanoke,VA,51
+1927343,89,Horsepasture District,Henry,VA,51
+1927344,111,Hounds Creek District,Lunenburg,VA,51
+1927345,59,Hunter Mill District,Fairfax,VA,51
+1927346,27,Hurricane District,Buchanan,VA,51
+1927347,63,Indian Valley District,Floyd,VA,51
+1927348,155,Ingles District,Pulaski,VA,51
+1927349,89,Iriswood District,Henry,VA,51
+1927350,3,Jack Jouett District,Albemarle,VA,51
+1927351,109,Jackson District,Louisa,VA,51
+1927352,157,Jackson District,Rappahannock,VA,51
+1927353,5,Jackson River District,Alleghany,VA,51
+1927354,119,Jamaica District,Middlesex,VA,51
+1927355,99,James Madison District,King George,VA,51
+1927356,99,James Monroe District,King George,VA,51
+1927357,29,"District 5, James River (historical)",Buckingham,VA,51
+1927358,95,Jamestown District,James City,VA,51
+1927359,19,Jefferson District,Bedford,VA,51
+1927360,47,Jefferson District,Culpeper,VA,51
+1927361,191,Jefferson District,Washington,VA,51
+1927362,175,Jerusalem District,Southampton,VA,51
+1927363,169,District 3,Scott,VA,51
+1927364,105,Jonesville District (historical),Lee,VA,51
+1927365,51,Kenady District,Dickenson,VA,51
+1927366,163,Kerrs Creek District,Rockbridge,VA,51
+1927367,27,Knox District,Buchanan,VA,51
+1927368,19,Lakes District,Bedford,VA,51
+1927369,35,Laurel Fork District,Carroll,VA,51
+1927370,197,Lead Mines District,Wythe,VA,51
+1927371,167,Lebanon District,Russell,VA,51
+1927372,59,Lee District,Fairfax,VA,51
+1927373,61,Lee District,Fauquier,VA,51
+1927374,177,Lee Hill District,Spotsylvania,VA,51
+1927375,107,Leesburg District,Loudoun,VA,51
+1927376,165,Linville District,Rockingham,VA,51
+1927377,63,Little River District,Floyd,VA,51
+1927378,177,Livingston District,Spotsylvania,VA,51
+1927379,63,Locust Grove District,Floyd,VA,51
+1927380,113,Locust Dale District,Madison,VA,51
+1927381,109,Louisa District,Louisa,VA,51
+1927382,111,Loves Mill District,Lunenburg,VA,51
+1927383,33,Madison District,Caroline,VA,51
+1927384,37,Madison District,Charlotte,VA,51
+1927385,191,Madison District,Washington,VA,51
+1927386,101,Mangohick District,King William,VA,51
+1927387,103,Mantua District (historical),Lancaster,VA,51
+1927388,139,"District 3, Marksville",Page,VA,51
+1927389,61,Marshall District,Fauquier,VA,51
+1927390,29,"District 1, Marshall (historical)",Buckingham,VA,51
+1927391,59,Mason District,Fairfax,VA,51
+1927392,155,Massie District,Pulaski,VA,51
+1927393,125,Massies Mill District (historical),Nelson,VA,51
+1927394,41,Matoaca District,Chesterfield,VA,51
+1927395,33,Mattaponi District,Caroline,VA,51
+1927396,141,Mayo River District,Patrick,VA,51
+1927397,29,"District 4, Maysville (historical)",Buckingham,VA,51
+1927398,21,Mechanicsburg District (historical),Bland,VA,51
+1927399,85,Mechanicsville District,Hanover,VA,51
+1927400,25,Meherrin District,Brunswick,VA,51
+1927401,111,Meherrin River District,Lunenburg,VA,51
+1927402,107,Mercer District (historical),Loudoun,VA,51
+1927403,15,Middle River District,Augusta,VA,51
+1927404,41,Midlothian District,Chesterfield,VA,51
+1927405,37,Midway District,Charlotte,VA,51
+1927406,17,Millboro District,Bath,VA,51
+1927407,43,Millwood District,Clarke,VA,51
+1927408,109,Mineral District,Louisa,VA,51
+1927409,79,Monroe District,Greene,VA,51
+1927410,191,Monroe District,Washington,VA,51
+1927411,91,Monterey District,Highland,VA,51
+1927412,193,Montross District,Westmoreland,VA,51
+1927413,59,Mount Vernon District,Fairfax,VA,51
+1927414,109,Mountain Road District,Louisa,VA,51
+1927415,163,Natural Bridge District,Rockbridge,VA,51
+1927416,153,Neabsco District,Prince William,VA,51
+1927417,45,New Castle District,Craig,VA,51
+1927418,167,New Garden District,Russell,VA,51
+1927419,139,"District 4, Newport",Page,VA,51
+1927420,93,Newport District,Isle of Wight,VA,51
+1927421,175,Newsoms District,Southampton,VA,51
+1927422,97,Newtown District,King and Queen,VA,51
+1927423,183,Newville District,Sussex,VA,51
+1927424,57,North District,Essex,VA,51
+1927425,173,North Fork District,Smyth,VA,51
+1927426,27,North Grundy District,Buchanan,VA,51
+1927427,15,North River District,Augusta,VA,51
+1927428,187,North River District,Warren,VA,51
+1927429,185,Northern District,Tazewell,VA,51
+1927430,185,Northwestern District,Tazewell,VA,51
+1927431,81,Nottoway District (historical),Greensville,VA,51
+1927432,153,Occoquan District,Prince William,VA,51
+1927433,77,Old Town District,Grayson,VA,51
+1927434,69,Opequon District,Frederick,VA,51
+1927435,65,Palmyra District,Fluvanna,VA,51
+1927436,173,Park District,Smyth,VA,51
+1927437,15,Pastures District,Augusta,VA,51
+1927438,109,Patrick Henry District,Louisa,VA,51
+1927439,19,Peaks District,Bedford,VA,51
+1927440,141,Peters Creek District,Patrick,VA,51
+1927441,73,Petsworth District,Gloucester,VA,51
+1927442,115,Piankatank District,Mathews,VA,51
+1927443,157,Piedmont District,Rappahannock,VA,51
+1927444,35,Pine Creek District,Carroll,VA,51
+1927445,119,Pine Top District,Middlesex,VA,51
+1927446,35,Piper Gap District,Carroll,VA,51
+1927447,165,Plains District,Rockingham,VA,51
+1927448,111,Plymouth District,Lunenburg,VA,51
+1927449,33,Port Royal District,Caroline,VA,51
+1927450,45,Potts Mountain District,Craig,VA,51
+1927451,25,Powellton District,Brunswick,VA,51
+1927452,95,Powhatan District,James City,VA,51
+1927453,27,Prater District,Buchanan,VA,51
+1927454,59,Providence District,Fairfax,VA,51
+1927455,77,Providence District,Grayson,VA,51
+1927456,113,Rapidan District,Madison,VA,51
+1927457,25,Red Oak District,Brunswick,VA,51
+1927458,89,Reed Creek District,Henry,VA,51
+1927459,33,Reedy Church District,Caroline,VA,51
+1927460,111,Rehoboth District,Lunenburg,VA,51
+1927461,89,Ridgeway District,Henry,VA,51
+1927462,3,Rio District,Albemarle,VA,51
+1927463,65,Rivanna District,Fluvanna,VA,51
+1927464,3,Rivanna District,Albemarle,VA,51
+1927465,15,Riverheads District,Augusta,VA,51
+1927466,149,Rives District,Prince George,VA,51
+1927467,37,Roanoke District,Charlotte,VA,51
+1927468,95,Roberts District,James City,VA,51
+1927469,113,Robertson District,Madison,VA,51
+1927470,155,Robinson District,Pulaski,VA,51
+1927471,179,Rock Hill District,Stafford,VA,51
+1927472,27,Rock Lick District,Buchanan,VA,51
+1927473,125,Rockfish District (historical),Nelson,VA,51
+1927474,21,Rocky Gap District (historical),Bland,VA,51
+1927475,67,Rocky Mount District,Franklin,VA,51
+1927476,105,Rocky Station District (historical),Lee,VA,51
+1927477,105,Rose Hill District (historical),Lee,VA,51
+1927478,173,Royal Oak District,Smyth,VA,51
+1927479,79,Ruckersville District,Greene,VA,51
+1927480,43,Russell District,Clarke,VA,51
+1927481,31,Rustburg District,Campbell,VA,51
+1927482,173,Rye Valley District,Smyth,VA,51
+1927483,47,Salem District,Culpeper,VA,51
+1927484,177,Salem District,Spotsylvania,VA,51
+1927485,173,Saltville District,Smyth,VA,51
+1927486,119,Saluda District,Middlesex,VA,51
+1927487,3,Samuel Miller District,Albemarle,VA,51
+1927488,51,Sand Lick District,Dickenson,VA,51
+1927489,125,Schuyler District (historical),Nelson,VA,51
+1927490,61,Scott District,Fauquier,VA,51
+1927491,3,Scottsville District,Albemarle,VA,51
+1927492,21,Seddon District (historical),Bland,VA,51
+1927493,31,Seneca District,Campbell,VA,51
+1927494,97,Shanghai District,King and Queen,VA,51
+1927495,21,Sharon District (historical),Bland,VA,51
+1927496,69,Shawnee District,Frederick,VA,51
+1927497,139,"District 5, Shenandoah",Page,VA,51
+1927498,187,Shenandoah District,Warren,VA,51
+1927499,99,Shiloh District,King George,VA,51
+1927500,45,Simmonsville District,Craig,VA,51
+1927501,29,"District 6, Slate River (historical)",Buckingham,VA,51
+1927502,141,Smith River District,Patrick,VA,51
+1927503,93,Smithfield District,Isle of Wight,VA,51
+1927504,67,Snow Creek District,Franklin,VA,51
+1927505,57,South District,Essex,VA,51
+1927506,85,South Anna District,Hanover,VA,51
+1927507,27,South Grundy District,Buchanan,VA,51
+1927508,15,South River District,Augusta,VA,51
+1927509,163,South River District,Rockbridge,VA,51
+1927510,187,South River District,Warren,VA,51
+1927511,185,Southern District,Tazewell,VA,51
+1927512,11,Southside District (historical),Appomattox,VA,51
+1927513,197,Speedwell District,Wythe,VA,51
+1927514,59,Springfield District,Fairfax,VA,51
+1927515,97,Saint Stephens Church District,King and Queen,VA,51
+1927516,79,Stanardsville District,Greene,VA,51
+1927517,143,Staunton River District,Pittsylvania,VA,51
+1927518,107,Sterling District,Loudoun,VA,51
+1927519,47,Stevensburg District,Culpeper,VA,51
+1927520,97,Stevensville District,King and Queen,VA,51
+1927521,95,Stonehouse District,James City,VA,51
+1927522,11,Stonewall District (historical),Appomattox,VA,51
+1927523,69,Stonewall District,Frederick,VA,51
+1927524,91,Stonewall District,Highland,VA,51
+1927525,165,Stonewall District,Rockingham,VA,51
+1927526,157,Stonewall-Hawthorne District,Rappahannock,VA,51
+1927527,183,Stony Creek District,Sussex,VA,51
+1927528,25,Sturgeon District,Brunswick,VA,51
+1927529,107,Sugarland Run District,Loudoun,VA,51
+1927530,59,Sully District,Fairfax,VA,51
+1927531,35,Sulphur Springs District,Carroll,VA,51
+1927532,31,Sunburst District,Campbell,VA,51
+1927533,181,Surry District,Surry,VA,51
+1927534,191,Taylor District,Washington,VA,51
+1927535,149,Templeton District,Prince George,VA,51
+1927536,87,Three Chopt District,Henrico,VA,51
+1927537,31,Timberlake District,Campbell,VA,51
+1927538,25,Totaro District,Brunswick,VA,51
+1927539,57,Town Magisterial District,Essex,VA,51
+1927540,87,Tuckahoe District,Henrico,VA,51
+1927541,143,Tunstall District,Pittsylvania,VA,51
+1927542,36,Tyler Magisterial District,Charles City,VA,51
+1927543,191,Tyler District,Washington,VA,51
+1927544,67,Union Hall District,Franklin,VA,51
+1927545,23,Valley District,Botetourt,VA,51
+1927546,17,Valley Springs District,Bath,VA,51
+1927547,87,Varina District,Henrico,VA,51
+1927548,161,Vinton District,Roanoke,VA,51
+1927549,157,Wakefield District,Rappahannock,VA,51
+1927550,183,Wakefield District,Sussex,VA,51
+1927551,163,Walkers Creek District,Rockbridge,VA,51
+1927552,37,Walton District,Charlotte,VA,51
+1927553,73,Ware District,Gloucester,VA,51
+1927554,17,Warm Springs District,Bath,VA,51
+1927555,193,Washington District,Westmoreland,VA,51
+1927556,183,Waverly District,Sussex,VA,51
+1927557,15,Wayne District,Augusta,VA,51
+1927558,47,West Fairfax District,Culpeper,VA,51
+1927559,139,"District 1, West Luray",Page,VA,51
+1927560,101,West Point District,King William,VA,51
+1927561,197,West Wytheville District,Wythe,VA,51
+1927562,71,Western District,Giles,VA,51
+1927563,185,Western District,Tazewell,VA,51
+1927564,143,Westover District,Pittsylvania,VA,51
+1927565,115,Westville District,Mathews,VA,51
+1927566,103,White Chapel District (historical),Lancaster,VA,51
+1927567,3,White Hall District,Albemarle,VA,51
+1927568,43,White Post District,Clarke,VA,51
+1927569,105,White Shoals District (historical),Lee,VA,51
+1927570,103,White Stone District (historical),Lancaster,VA,51
+1927571,17,Williamsville District,Bath,VA,51
+1927572,51,Willis District,Dickenson,VA,51
+1927573,77,Wilson Creek District,Grayson,VA,51
+1927574,191,Wilson District,Washington,VA,51
+1927575,93,Windsor District,Isle of Wight,VA,51
+1927576,161,Windsor Hills District,Roanoke,VA,51
+1927577,153,Woodbridge District,Prince William,VA,51
+1927578,105,Yokum Station District (historical),Lee,VA,51
+1927579,73,York District,Gloucester,VA,51
+1927580,81,Zion District (historical),Greensville,VA,51
+1927581,5,Covington District,Alleghany,VA,51
+1930433,69,Red Bud District,Frederick,VA,51
+1946099,5,Clifton Forge East District,Alleghany,VA,51
+1946100,5,Clifton Forge West District,Alleghany,VA,51
+1946101,5,Sharon District,Alleghany,VA,51
+1952416,21,District 1,Bland,VA,51
+1952417,21,District 2,Bland,VA,51
+1952418,21,District 3,Bland,VA,51
+1952419,21,District 4,Bland,VA,51
+1952577,103,District 1,Lancaster,VA,51
+1952578,103,District 2,Lancaster,VA,51
+1952579,103,District 3,Lancaster,VA,51
+1952580,103,District 4,Lancaster,VA,51
+1952581,103,District 5,Lancaster,VA,51
+1952863,57,Tappahannock District,Essex,VA,51
+1955007,107,Potomac District,Loudoun,VA,51
+1986190,121,District A-01,Montgomery,VA,51
+1986191,121,District B-01,Montgomery,VA,51
+1986192,121,District C-01,Montgomery,VA,51
+1986193,121,District D-01,Montgomery,VA,51
+1986194,121,District E-01,Montgomery,VA,51
+1986195,121,District F-01,Montgomery,VA,51
+1986196,121,District G-01,Montgomery,VA,51
+1986427,36,District 1,Charles City,VA,51
+1986428,36,District 2,Charles City,VA,51
+1986429,36,District 3,Charles City,VA,51
+1989122,179,Garrisonville District,Stafford,VA,51
+2390145,181,Town of Dendron,Surry,VA,51
+2390148,29,Town of Dillwyn,Buckingham,VA,51
+2390149,37,Town of Drakes Branch,Charlotte,VA,51
+2390150,155,Town of Dublin,Pulaski,VA,51
+2390151,169,Town of Duffield,Scott,VA,51
+2390152,153,Town of Dumfries,Prince William,VA,51
+2390153,169,Town of Dungannon,Scott,VA,51
+2390159,131,Town of Eastville,Northampton,VA,51
+2390160,171,Town of Edinburg,Shenandoah,VA,51
+2390167,165,Town of Elkton,Rockingham,VA,51
+2390172,131,Town of Exmore,Northampton,VA,51
+2390178,147,Town of Farmville,Prince Edward,VA,51
+2390183,23,Town of Fincastle,Botetourt,VA,51
+2390186,63,Town of Floyd,Floyd,VA,51
+2390194,77,Town of Fries,Grayson,VA,51
+2390195,187,Town of Front Royal,Warren,VA,51
+2390201,169,Town of Gate City,Scott,VA,51
+2390205,191,Town of Glade Spring,Washington,VA,51
+2390206,163,Town of Glasgow,Rockbridge,VA,51
+2390209,71,Town of Glen Lyn,Giles,VA,51
+2390212,137,Town of Gordonsville,Orange,VA,51
+2390213,163,Town of Goshen,Rockbridge,VA,51
+2390220,143,Town of Gretna,Pittsylvania,VA,51
+2390221,165,Town of Grottoes,Rockingham,VA,51
+2390222,27,Town of Grundy,Buchanan,VA,51
+2390223,83,Town of Halifax,Halifax,VA,51
+2390224,1,Town of Hallwood,Accomack,VA,51
+2390226,107,Town of Hamilton,Loudoun,VA,51
+2390236,153,Town of Haymarket,Prince William,VA,51
+2390237,51,Town of Haysi,Dickenson,VA,51
+2390244,59,Town of Herndon,Fairfax,VA,51
+2390247,107,Town of Hillsboro,Loudoun,VA,51
+2390249,35,Town of Hillsville,Carroll,VA,51
+2390250,167,Town of Honaker,Russell,VA,51
+2390557,11,Appomattox River District,Appomattox,VA,51
+2390678,11,Courthouse District,Appomattox,VA,51
+2390679,29,District 1,Buckingham,VA,51
+2390680,81,District 1,Greensville,VA,51
+2390681,29,District 2,Buckingham,VA,51
+2390682,81,District 2,Greensville,VA,51
+2390683,29,District 3,Buckingham,VA,51
+2390684,81,District 3,Greensville,VA,51
+2390685,29,District 4,Buckingham,VA,51
+2390686,81,District 4,Greensville,VA,51
+2390687,29,District 5,Buckingham,VA,51
+2390688,29,District 6,Buckingham,VA,51
+2390689,29,District 7,Buckingham,VA,51
+2390690,11,Falling River District,Appomattox,VA,51
+2390691,125,Lovingston District (historical),Nelson,VA,51
+2390693,11,Piney Mountain District,Appomattox,VA,51
+2390694,191,Town of Abingdon,Washington,VA,51
+2390696,1,Town of Accomac,Accomack,VA,51
+2390698,25,Town of Alberta,Brunswick,VA,51
+2390701,31,Town of Altavista,Campbell,VA,51
+2390702,9,Town of Amherst,Amherst,VA,51
+2390706,195,Town of Appalachia,Wise,VA,51
+2390707,11,Town of Appomattox,Appomattox,VA,51
+2390708,85,Town of Ashland,Hanover,VA,51
+2390720,1,Town of Belle Haven,Accomack,VA,51
+2390723,43,Town of Berryville,Clarke,VA,51
+2390730,195,Town of Big Stone Gap,Wise,VA,51
+2390731,121,Town of Blacksburg,Montgomery,VA,51
+2390732,135,Town of Blackstone,Nottoway,VA,51
+2390736,1,Town of Bloxom,Accomack,VA,51
+2390737,185,Town of Bluefield,Tazewell,VA,51
+2390739,67,Town of Boones Mill,Franklin,VA,51
+2390742,33,Town of Bowling Green,Caroline,VA,51
+2390743,43,Town of Boyce,Clarke,VA,51
+2390744,117,Town of Boydton,Mecklenburg,VA,51
+2390745,175,Town of Boykins,Southampton,VA,51
+2390748,175,Town of Branchville,Southampton,VA,51
+2390752,165,Town of Bridgewater,Rockingham,VA,51
+2390753,165,Town of Broadway,Rockingham,VA,51
+2390754,25,Town of Brodnax,Brunswick,VA,51
+2390756,31,Town of Brookneal,Campbell,VA,51
+2390759,23,Town of Buchanan,Botetourt,VA,51
+2390761,135,Town of Burkeville,Nottoway,VA,51
+2390767,131,Town of Cape Charles,Northampton,VA,51
+2390770,175,Town of Capron,Southampton,VA,51
+2390773,185,Town of Cedar Bluff,Tazewell,VA,51
+2390778,37,Town of Charlotte Court House,Charlotte,VA,51
+2390779,117,Town of Chase City,Mecklenburg,VA,51
+2390780,143,Town of Chatham,Pittsylvania,VA,51
+2390781,131,Town of Cheriton,Northampton,VA,51
+2390791,173,Town of Chilhowie,Smyth,VA,51
+2390792,1,Town of Chincoteague,Accomack,VA,51
+2390793,121,Town of Christiansburg,Montgomery,VA,51
+2390796,181,Town of Claremont,Surry,VA,51
+2390797,117,Town of Clarksville,Mecklenburg,VA,51
+2390802,167,Town of Cleveland,Russell,VA,51
+2390803,59,Town of Clifton,Fairfax,VA,51
+2390804,5,Town of Clifton Forge,Alleghany,VA,51
+2390805,51,Town of Clinchco,Dickenson,VA,51
+2390806,169,Town of Clinchport,Scott,VA,51
+2390807,51,Town of Clintwood,Dickenson,VA,51
+2390808,195,Town of Coeburn,Wise,VA,51
+2390810,193,Town of Colonial Beach,Westmoreland,VA,51
+2390811,65,Town of Columbia,Fluvanna,VA,51
+2390813,175,Town of Courtland,Southampton,VA,51
+2390815,15,Town of Craigsville,Augusta,VA,51
+2390816,135,Town of Crewe,Nottoway,VA,51
+2390817,47,Town of Culpeper,Culpeper,VA,51
+2390819,191,Town of Damascus,Washington,VA,51
+2390823,165,Town of Dayton,Rockingham,VA,51
+2391231,11,Wreck Island District,Appomattox,VA,51
+2391236,143,Town of Hurt,Pittsylvania,VA,51
+2391239,77,Town of Independence,Grayson,VA,51
+2391241,5,Town of Iron Gate,Alleghany,VA,51
+2391242,103,Town of Irvington,Lancaster,VA,51
+2391243,175,Town of Ivor,Southampton,VA,51
+2391245,81,Town of Jarratt,Greensville,VA,51
+2391247,105,Town of Jonesville,Lee,VA,51
+2391250,1,Town of Keller,Accomack,VA,51
+2391251,111,Town of Kenbridge,Lunenburg,VA,51
+2391255,37,Town of Keysville,Charlotte,VA,51
+2391256,103,Town of Kilmarnock,Lancaster,VA,51
+2391259,117,Town of La Crosse,Mecklenburg,VA,51
+2391263,25,Town of Lawrenceville,Brunswick,VA,51
+2391265,167,Town of Lebanon,Russell,VA,51
+2391266,107,Town of Leesburg,Loudoun,VA,51
+2391275,109,Town of Louisa,Louisa,VA,51
+2391276,107,Town of Lovettsville,Loudoun,VA,51
+2391279,139,Town of Luray,Page,VA,51
+2391281,113,Town of Madison,Madison,VA,51
+2391286,173,Town of Marion,Smyth,VA,51
+2391293,53,Town of McKenney,Dinwiddie,VA,51
+2391295,1,Town of Melfa,Accomack,VA,51
+2391297,107,Town of Middleburg,Loudoun,VA,51
+2391300,69,Town of Middletown,Frederick,VA,51
+2391308,109,Town of Mineral,Louisa,VA,51
+2391311,91,Town of Monterey,Highland,VA,51
+2391313,193,Town of Montross,Westmoreland,VA,51
+2391317,165,Town of Mount Crawford,Rockingham,VA,51
+2391318,171,Town of Mount Jackson,Shenandoah,VA,51
+2391321,71,Town of Narrows,Giles,VA,51
+2391322,131,Town of Nassawadox,Northampton,VA,51
+2391323,45,Town of New Castle,Craig,VA,51
+2391326,171,Town of New Market,Shenandoah,VA,51
+2391330,175,Town of Newsoms,Southampton,VA,51
+2391331,169,Town of Nickelsville,Scott,VA,51
+2391340,153,Town of Occoquan,Prince William,VA,51
+2391345,1,Town of Onancock,Accomack,VA,51
+2391346,1,Town of Onley,Accomack,VA,51
+2391347,137,Town of Orange,Orange,VA,51
+2391349,1,Town of Painter,Accomack,VA,51
+2391350,11,Town of Pamplin City,Appomattox,VA,51
+2391351,1,Town of Parksley,Accomack,VA,51
+2391354,71,Town of Pearisburg,Giles,VA,51
+2391355,71,Town of Pembroke,Giles,VA,51
+2391356,105,Town of Pennington Gap,Lee,VA,51
+2391359,37,Town of Phenix,Charlotte,VA,51
+2391365,185,Town of Pocahontas,Tazewell,VA,51
+2391368,33,Town of Port Royal,Caroline,VA,51
+2391370,195,Town of Pound,Wise,VA,51
+2391374,155,Town of Pulaski,Pulaski,VA,51
+2391376,107,Town of Purcellville,Loudoun,VA,51
+2391377,153,Town of Quantico,Prince William,VA,51
+2391384,61,Town of Remington,Fauquier,VA,51
+2391386,71,Town of Rich Creek,Giles,VA,51
+2391387,185,Town of Richlands,Tazewell,VA,51
+2391390,89,Town of Ridgeway,Henry,VA,51
+2391395,67,Town of Rocky Mount,Franklin,VA,51
+2391396,107,Town of Round Hill,Loudoun,VA,51
+2391399,197,Town of Rural Retreat,Wythe,VA,51
+2391400,195,Town of Saint Paul,Wise,VA,51
+2391401,173,Town of Saltville,Smyth,VA,51
+2391403,1,Town of Saxis,Accomack,VA,51
+2391404,83,Town of Scottsburg,Halifax,VA,51
+2391405,3,Town of Scottsville,Albemarle,VA,51
+2391410,139,Town of Shenandoah,Page,VA,51
+2391413,93,Town of Smithfield,Isle of Wight,VA,51
+2391421,83,Town of South Boston,Halifax,VA,51
+2391422,117,Town of South Hill,Mecklenburg,VA,51
+2391423,105,Town of Saint Charles,Lee,VA,51
+2391425,79,Town of Stanardsville,Greene,VA,51
+2391426,139,Town of Stanley,Page,VA,51
+2391428,69,Town of Stephens City,Frederick,VA,51
+2391429,183,Town of Stony Creek,Sussex,VA,51
+2391430,171,Town of Strasburg,Shenandoah,VA,51
+2391431,141,Town of Stuart,Patrick,VA,51
+2391434,181,Town of Surry,Surry,VA,51
+2391438,1,Town of Tangier,Accomack,VA,51
+2391439,57,Town of Tappahannock,Essex,VA,51
+2391440,185,Town of Tazewell,Tazewell,VA,51
+2391443,61,Town of The Plains,Fauquier,VA,51
+2391446,165,Town of Timberville,Rockingham,VA,51
+2391447,171,Town of Toms Brook,Shenandoah,VA,51
+2391451,77,Town of Troutdale,Grayson,VA,51
+2391452,23,Town of Troutville,Botetourt,VA,51
+2391458,119,Town of Urbanna,Middlesex,VA,51
+2391459,111,Town of Victoria,Lunenburg,VA,51
+2391461,59,Town of Vienna,Fairfax,VA,51
+2391462,161,Town of Vinton,Roanoke,VA,51
+2391464,83,Town of Virgilina,Halifax,VA,51
+2391465,1,Town of Wachapreague,Accomack,VA,51
+2391466,183,Town of Wakefield,Sussex,VA,51
+2391469,61,Town of Warrenton,Fauquier,VA,51
+2391470,159,Town of Warsaw,Richmond,VA,51
+2391471,157,Town of Washington,Rappahannock,VA,51
+2391473,183,Town of Waverly,Sussex,VA,51
+2391475,169,Town of Weber City,Scott,VA,51
+2391480,101,Town of West Point,King William,VA,51
+2391483,103,Town of White Stone,Lancaster,VA,51
+2391488,93,Town of Windsor,Isle of Wight,VA,51
+2391490,195,Town of Wise,Wise,VA,51
+2391494,171,Town of Woodstock,Shenandoah,VA,51
+2391497,197,Town of Wytheville,Wythe,VA,51
+2631323,125,Central District,Nelson,VA,51
+2631324,125,East District,Nelson,VA,51
+2631325,125,North District,Nelson,VA,51
+2631326,125,South District,Nelson,VA,51
+2631327,125,West District,Nelson,VA,51
+2646878,13,Crystal City,Arlington,VA,51
+2679006,127,Weir Magisterial District,New Kent,VA,51
+2746028,107,Algonkian District,Loudoun,VA,51
+2746030,107,Ashburn District,Loudoun,VA,51
+2750017,19,District 1,Bedford,VA,51
+2750018,19,District 2,Bedford,VA,51
+2750019,19,District 3,Bedford,VA,51
+2750034,19,District 4,Bedford,VA,51
+2750054,19,District 5,Bedford,VA,51
+2750055,19,District 6,Bedford,VA,51
+2750056,19,District 7,Bedford,VA,51
