@@ -8,7 +8,7 @@ namespace InSeasonAPI.Models
 {
     class Places
     {
-        public string location { get; set; }
+        public Location location { get; set; }
 
     }
 }
