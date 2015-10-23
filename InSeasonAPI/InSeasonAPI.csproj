@@ -180,7 +180,30 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\crow.json" />
+    <Content Include="App_Data\JsonFiles\hunting\bear.json" />
+    <Content Include="App_Data\JsonFiles\hunting\beaver.json" />
+    <Content Include="App_Data\JsonFiles\hunting\bobcat.json" />
+    <Content Include="App_Data\JsonFiles\hunting\coyote.json" />
+    <Content Include="App_Data\JsonFiles\hunting\crow.json" />
+    <Content Include="App_Data\JsonFiles\hunting\deer.json" />
+    <Content Include="App_Data\JsonFiles\hunting\feral_hogs.json" />
+    <Content Include="App_Data\JsonFiles\hunting\groundhog.json" />
+    <Content Include="App_Data\JsonFiles\hunting\grouse.json" />
+    <Content Include="App_Data\JsonFiles\hunting\index.json" />
+    <Content Include="App_Data\JsonFiles\hunting\local_ordinances.json" />
+    <Content Include="App_Data\JsonFiles\hunting\mink.json" />
+    <Content Include="App_Data\JsonFiles\hunting\muskrat.json" />
+    <Content Include="App_Data\JsonFiles\hunting\nutria.json" />
+    <Content Include="App_Data\JsonFiles\hunting\opossum.json" />
+    <Content Include="App_Data\JsonFiles\hunting\otter.json" />
+    <Content Include="App_Data\JsonFiles\hunting\pheasant.json" />
+    <Content Include="App_Data\JsonFiles\hunting\quail.json" />
+    <Content Include="App_Data\JsonFiles\hunting\rabbit.json" />
+    <Content Include="App_Data\JsonFiles\hunting\raccoon.json" />
+    <Content Include="App_Data\JsonFiles\hunting\skunk.json" />
+    <Content Include="App_Data\JsonFiles\hunting\squirrel.json" />
+    <Content Include="App_Data\JsonFiles\hunting\turkey.json" />
+    <Content Include="App_Data\JsonFiles\hunting\weasel.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
