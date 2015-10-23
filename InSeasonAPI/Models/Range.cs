@@ -8,7 +8,7 @@ namespace InSeasonAPI.Models
 {
     class Range
     {
-        public Places places { get; set; }
+        public Dictionary<string, Location> places { get; set; }
         public NestedSeason season { get; set; }
     }
 }

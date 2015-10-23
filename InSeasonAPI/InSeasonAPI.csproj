@@ -154,7 +154,6 @@
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\mydate.cs" />
     <Compile Include="Models\NestedSeason.cs" />
-    <Compile Include="Models\Places.cs" />
     <Compile Include="Models\Range.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\Seasons.cs" />
