@@ -15,7 +15,7 @@ namespace InSeasonAPI.Models
         public string schema_version { get; set; }
         public string conformsTo { get; set; }
         public string state { get; set; }
-        public List<Season> seasons {get; set;}
+        public Season seasons {get; set;}
         public Species species { get; set; }
 
     }

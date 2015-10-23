@@ -18,7 +18,9 @@ namespace InSeasonAPI.Controllers
         [Route("test")]
         public string GetTest()
         {
-            return getdata().ToString();
+            var data = getdata();
+
+            return data.ToString();
         }
 
         private Hunting getdata()
