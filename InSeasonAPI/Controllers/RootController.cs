@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Web.Http;
 using Newtonsoft.Json;
 using InSeasonAPI.Models;
@@ -38,6 +39,16 @@ namespace InSeasonAPI.Controllers
         public IHttpActionResult GnisToCounty(string gnis)
         {
             var data = new Utils.Converter().GnisToCounty(Int32.Parse(gnis));
+
+            return this.Ok(data);
+        }
+
+        [Route("animals")]
+        public IHttpActionResult GetAnimals()
+        {
+            var filenames = Directory.GetFiles("C:\\Documents", "*.json")
+                                     .Select(path => Path.GetFileName(path))
+                                     .ToArray();
 
             return this.Ok(data);
         }
