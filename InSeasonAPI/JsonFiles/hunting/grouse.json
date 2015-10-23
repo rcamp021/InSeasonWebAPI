@@ -1,0 +1,39 @@
+{
+	"state": "VA",
+	"agency": "Department of Game and Inland Fisheries",
+	"date_effective": "2014-07-01T00:00:00-05:00",
+	"date_expires": "2015-06-30T23:59:59-05:00",
+	"conformsTo": "http://rooseveltschema.org/schemas/1.0a/hunting.json",
+	"schema_version": "1.0a",
+	"documentation": "http://rooseveltschema.org/",
+	"species": {
+		"name": "grouse",
+		"taxonomy": "Bonasa umbellus",
+		"bova_id": "40099",
+		"url": "http://www.dgif.virginia.gov/wildlife/grouse/"
+	},
+	"seasons": {
+		"season": {
+			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
+			"range": [
+				{
+					"places": {
+						"Virginia": {
+							"gnis_id": 1779803,
+							"fips_code": 51
+						},
+						"season": {
+							"date": {
+								"starts": "2014-10-25",
+								"ends": "2015-02-14"
+							}
+						}
+					},
+					"exceptions": {
+						"East of I-95": {}
+					}
+				}
+			]
+		}
+	}
+}

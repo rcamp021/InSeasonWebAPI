@@ -1,0 +1,117 @@
+{
+	"state": "VA",
+	"agency": "Department of Game and Inland Fisheries",
+	"date_effective": "2014-07-01T00:00:00-05:00",
+	"date_expires": "2015-06-30T23:59:59-05:00",
+	"conformsTo": "http://rooseveltschema.org/schemas/1.0a/hunting.json",
+	"schema_version": "1.0a",
+	"documentation": "http://rooseveltschema.org/",
+	"species": {
+		"name": "beaver",
+		"taxonomy": "Castor canadensis",
+		"bova_id": "050069",
+		"url": "http://www.dgif.virginia.gov/wildlife/information/?s=050069" 
+	},
+	"seasons": {
+		"season": {
+			"method": "traps",
+			"range": [
+				{
+					"places": {
+						"Virginia": {
+							"gnis_id": 1779803,
+							"fips_code": 51
+						}
+					},
+					"season": {
+						"date": {
+							"starts": "2014-12-01",
+							"ends": "2015-02-28"
+						}
+					}
+				}
+			]
+		},
+		"season": {
+			"method": "traps",
+			"range": [
+				{
+					"places": {
+						"Virginia": {
+							"gnis_id": 1779803,
+							"fips_code": 51
+						}
+					},
+					"season": {
+						"date": {
+							"starts": "2014-12-01",
+							"ends": "2015-02-28"
+						}
+					}
+				},
+				{
+					"places": {
+						"any city": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"any town": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Arlington": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Chesterfield": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Fairfax": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Henrico": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"James City": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Loudoun": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Prince William": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Spotsylvania": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Stafford": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"Roanoke": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						},
+						"York": {
+							"gnis_id": "TK",
+							"fips_code": "TK"
+						}
+					},
+					"season": {
+						"date": {
+							"starts": "2014-07-01",
+							"ends": "2015-06-30"
+						}
+					}
+				}
+			]
+		}
+	}
+}
