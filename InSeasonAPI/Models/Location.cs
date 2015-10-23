@@ -8,5 +8,6 @@ namespace InSeasonAPI.Models
 {
     class Location
     {
+
     }
 }

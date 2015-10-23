@@ -133,6 +133,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Hunting.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Places.cs" />
+    <Compile Include="Models\Range.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\Species.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
