@@ -8,7 +8,7 @@ namespace InSeasonAPI.Models
 {
     class Location
     {
-        public int gnis_id { get; set; }
-        public int fips_code { get; set; }
+        public string gnis_id { get; set; }
+        public string fips_code { get; set; }
     }
 }

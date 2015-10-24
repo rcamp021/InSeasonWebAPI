@@ -14,7 +14,7 @@
   },
   "seasons": [
     {
-      "method": "traps",
+      "method": [ "traps" ],
       "range": [
         {
           "places": {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "method": "traps",
+      "method": [ "traps" ],
       "range": [
         {
           "places": {

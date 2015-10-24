@@ -35,7 +35,7 @@ namespace InSeasonAPI.Controllers
 
                 if (seasons != null)
                 {
-                    var countiesRestrictions = seasons.Select(x => x.places.Where( y => ids.Contains(y.Value.gnis_id) ) ).ToList();
+                    var countiesRestrictions = seasons.Select(x => x.places.Where( y => ids.Contains( TypeConvert.StrToIntDef(y.Value.gnis_id,0) ) ) ).ToList();
                     // any place where the location == anything in ids
                 }
                 return null;

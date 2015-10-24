@@ -15,7 +15,7 @@
   "seasons": [
     {
       "name": "Archery Bear Season",
-      "method": "archery",
+      "method": [ "archery" ],
       "method_rules": [
         "Special restrictions apply to archery tackle use during this season. See “Legal Use of Firearms and Archery Tackle.”",
         "Archery tackle (including crossbows) only.",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Muzzleloader Bear Season",
-      "method": "muzzleloader",
+      "method": [ "muzzleloader" ],
       "method_rules": [
         "Only muzzleloading firearms, .45 caliber or larger, loaded from the muzzle of the gun.",
         "Muzzleloading firearms must be single shot, capable of firing only a single bullet or saboted bullet (.38 caliber or larger).",
@@ -77,7 +77,7 @@
     {
       "name": "Firearms Bear Season",
       "method": [ "modern firearms", "archery tackle", "muzzleloading firearms" ],
-      "method_rules": "Special restrictions apply to specific firearms use during this season. See “Legal Use of Firearms and Archery Equipment” and “Local Firearms Ordinances” for details.",
+      "method_rules": [ "Special restrictions apply to specific firearms use during this season. See “Legal Use of Firearms and Archery Equipment” and “Local Firearms Ordinances” for details." ],
       "range": [
         {
           "places": {

@@ -15,7 +15,7 @@
   "seasons": [
     {
       "name": "Early Archery Season",
-      "method": "archery",
+      "method": ["archery"],
       "method_rules": [
         "Special restrictions apply to archery tackle use during this season. See “Legal Use of Firearms and Archery Tackle.”",
         "Archery tackle (including crossbows) only.",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Late Archery Season",
-      "method": "archery",
+      "method": ["archery"],
       "method_rules": [
         "Special restrictions apply to archery tackle use during this season. See “Legal Use of Firearms and Archery Tackle.”",
         "Archery tackle (including crossbows) only.",
@@ -310,7 +310,7 @@
     },
     {
       "name": "Late Anterless-only Season",
-      "method": "archery",
+      "method": ["archery"],
       "method_rules": [
         "During this season only antlerless deer may be taken."
       ],
@@ -344,7 +344,7 @@
     },
     {
       "name": "Urban Archery Deer Seasons",
-      "method": "archery",
+      "method": ["archery"],
       "method_rules": [
         "During this season only antlerless deer may be taken.",
         "Archery or crossbow deer hunters hunting during the early urban archery deer season are required to wear blaze orange on the Youth and Apprentice Deer Hunting Day Saturday, September 27. For exceptions to the blaze orange requirement see the “Hunting and Trapping in Virginia” guide",
@@ -362,7 +362,7 @@
     },
     {
       "name": "Early Muzzleloader Season",
-      "method": "muzzleloader",
+      "method": ["muzzleloader"],
       "method_rules": [
         "Special restrictions apply to specific firearms use during this season. See “Legal Use of Firearms and Archery Equipment” and “Local Firearms Ordinances” sections of “Hunting & Trapping in Virginia” for details.",
         "Only muzzleloading firearms, .45 caliber or larger, loaded from the muzzle of the gun.",
@@ -396,7 +396,7 @@
     },
     {
       "name": "Either-sex Deer Hunting East of the Blue Ridge",
-      "method": "muzzleloader",
+      "method": ["muzzleloader"],
       "method_rules": [
         "Special restrictions apply to specific firearms use during this season. See “Legal Use of Firearms and Archery Equipment” and “Local Firearms Ordinances” sections of “Hunting & Trapping in Virginia” for details.",
         "Only muzzleloading firearms, .45 caliber or larger, loaded from the muzzle of the gun.",
@@ -451,7 +451,7 @@
     },
     {
       "name": "Either-sex Deer Hunting West of the Blue Ridge",
-      "method": "muzzleloader",
+      "method": ["muzzleloader"],
       "method_rules": [
         "Special restrictions apply to specific firearms use during this season. See “Legal Use of Firearms and Archery Equipment” and “Local Firearms Ordinances” sections of “Hunting & Trapping in Virginia” for details.",
         "Only muzzleloading firearms, .45 caliber or larger, loaded from the muzzle of the gun.",
@@ -510,7 +510,7 @@
     },
     {
       "name": "Late Muzzleloader Season East of the Blue Ridge",
-      "method": "muzzleloader",
+      "method": ["muzzleloader"],
       "method_rules": [
         "Special restrictions apply to specific firearms use during this season. See “Legal Use of Firearms and Archery Equipment” and “Local Firearms Ordinances” sections of “Hunting & Trapping in Virginia” for details.",
         "Only muzzleloading firearms, .45 caliber or larger, loaded from the muzzle of the gun.",
@@ -567,7 +567,7 @@
     },
     {
       "name": "Late Muzzleloader Season West of the Blue Ridge",
-      "method": "muzzleloader",
+      "method": ["muzzleloader"],
       "method_rules": [
         "Special restrictions apply to specific firearms use during this season. See “Legal Use of Firearms and Archery Equipment” and “Local Firearms Ordinances” sections of “Hunting & Trapping in Virginia” for details.",
         "Only muzzleloading firearms, .45 caliber or larger, loaded from the muzzle of the gun.",
@@ -647,7 +647,7 @@
     },
     {
       "name": "Firearms Deer Season",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -664,7 +664,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "places": {
@@ -775,7 +775,7 @@
     },
     {
       "name": "Early and Late Anterless-only Firearms Deer Seasons",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -801,7 +801,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -899,7 +899,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -917,7 +917,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -931,7 +931,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -969,7 +969,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -991,7 +991,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -1005,7 +1005,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -1041,7 +1041,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
@@ -1107,7 +1107,7 @@
     },
     {
       "name": "Either-sex Deer Hunting Days",
-      "method": "firearms",
+      "method": ["firearms"],
       "range": [
         {
           "season": {
