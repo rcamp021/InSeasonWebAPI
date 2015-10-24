@@ -30,7 +30,7 @@ namespace InSeasonAPI.Controllers
         {
             var data = new Utils.Converter().CountyToGnis(Int32.Parse(county));
 
-            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(data));
+            return Ok(data);
         }
 
         /// <summary>
@@ -43,7 +43,7 @@ namespace InSeasonAPI.Controllers
         {
             var data = new Utils.Converter().GnisToCounty(Int32.Parse(gnis));
 
-            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(data));
+            return Ok(data);
         }
 
         /// <summary>
@@ -67,7 +67,7 @@ namespace InSeasonAPI.Controllers
                 });
             }
 
-            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(animals));
+            return Ok(animals);
         }
 
         private Hunting getdata()
