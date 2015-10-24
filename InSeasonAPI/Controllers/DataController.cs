@@ -26,10 +26,11 @@ namespace InSeasonAPI.Controllers
             {
                 Hunting animalobj= await System.Threading.Tasks.Task.Factory.StartNew(() => JsonConvert.DeserializeObject<Hunting>(reader.ReadToEnd()));
 
-             //   string newDate = Convert.ToDateTime(date);
+               // string[] splitdate = date.Split('-');
 
-                var dates = animalobj.seasons.season.range.Where(x => Convert.ToDateTime(x.season.date.starts) >= date &&
-                                                                    Convert.ToDateTime(x.season.date.ends) <= date);
+             //   string newdate = splitdate[]
+
+                var dates = animalobj.seasons.Select(x => x.range.Where(y => Convert.ToDateTime(y.season.date.starts) >= date && Convert.ToDateTime(y.season.date.ends) <= date));
                 return null;
             }
         }
