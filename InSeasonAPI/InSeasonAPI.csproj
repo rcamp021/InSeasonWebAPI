@@ -166,7 +166,6 @@
     <Compile Include="Models\NestedSeason.cs" />
     <Compile Include="Models\Range.cs" />
     <Compile Include="Models\Season.cs" />
-    <Compile Include="Models\Seasons.cs" />
     <Compile Include="Models\Species.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Converter.cs" />
@@ -175,28 +174,10 @@
     <Content Include="App_Data\animals\bear.json" />
     <Content Include="App_Data\animals\beaver.json" />
     <Content Include="App_Data\animals\bobcat.json" />
-    <Content Include="App_Data\animals\coyote.json" />
-    <Content Include="App_Data\animals\crow.json" />
     <Content Include="App_Data\animals\deer.json" />
-    <Content Include="App_Data\animals\feral_hogs.json" />
     <Content Include="App_Data\GNIS-County-Definitions.csv" />
-    <Content Include="App_Data\animals\groundhog.json" />
-    <Content Include="App_Data\animals\grouse.json" />
     <Content Include="App_Data\index.json" />
     <Content Include="App_Data\local_ordinances.json" />
-    <Content Include="App_Data\animals\mink.json" />
-    <Content Include="App_Data\animals\muskrat.json" />
-    <Content Include="App_Data\animals\nutria.json" />
-    <Content Include="App_Data\animals\opossum.json" />
-    <Content Include="App_Data\animals\otter.json" />
-    <Content Include="App_Data\animals\pheasant.json" />
-    <Content Include="App_Data\animals\quail.json" />
-    <Content Include="App_Data\animals\rabbit.json" />
-    <Content Include="App_Data\animals\raccoon.json" />
-    <Content Include="App_Data\animals\skunk.json" />
-    <Content Include="App_Data\animals\squirrel.json" />
-    <Content Include="App_Data\animals\turkey.json" />
-    <Content Include="App_Data\animals\weasel.json" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -210,6 +191,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\animals\Unedited\coyote.json" />
+    <Content Include="App_Data\animals\Unedited\crow.json" />
+    <Content Include="App_Data\animals\Unedited\feral_hogs.json" />
+    <Content Include="App_Data\animals\Unedited\groundhog.json" />
+    <Content Include="App_Data\animals\Unedited\grouse.json" />
+    <Content Include="App_Data\animals\Unedited\mink.json" />
+    <Content Include="App_Data\animals\Unedited\muskrat.json" />
+    <Content Include="App_Data\animals\Unedited\nutria.json" />
+    <Content Include="App_Data\animals\Unedited\opossum.json" />
+    <Content Include="App_Data\animals\Unedited\otter.json" />
+    <Content Include="App_Data\animals\Unedited\pheasant.json" />
+    <Content Include="App_Data\animals\Unedited\quail.json" />
+    <Content Include="App_Data\animals\Unedited\rabbit.json" />
+    <Content Include="App_Data\animals\Unedited\raccoon.json" />
+    <Content Include="App_Data\animals\Unedited\skunk.json" />
+    <Content Include="App_Data\animals\Unedited\squirrel.json" />
+    <Content Include="App_Data\animals\Unedited\turkey.json" />
+    <Content Include="App_Data\animals\Unedited\weasel.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

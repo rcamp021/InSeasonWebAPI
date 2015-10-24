@@ -1,19 +1,19 @@
 {
-	"state": "VA",
-	"agency": "Department of Game and Inland Fisheries",
-	"date_effective": "2014-07-01T00:00:00-05:00",
-	"date_expires": "2015-06-30T23:59:59-05:00",
-	"conformsTo": "http://rooseveltschema.org/schemas/1.0a/hunting.json",
-	"schema_version": "1.0a",
-	"documentation": "http://rooseveltschema.org/",
-	"species": {
-		"name": "bobcat",
-		"taxonomy": "Lynx rufus rufus",
-		"bova_id": "50051",
-		"url": "http://www.dgif.virginia.gov/wildlife/information/?s=050051" 
-	},
-	"seasons": {
-		"season": {
+  "state": "VA",
+  "agency": "Department of Game and Inland Fisheries",
+  "date_effective": "2014-07-01T00:00:00-05:00",
+  "date_expires": "2015-06-30T23:59:59-05:00",
+  "conformsTo": "http://rooseveltschema.org/schemas/1.0a/hunting.json",
+  "schema_version": "1.0a",
+  "documentation": "http://rooseveltschema.org/",
+  "species": {
+    "name": "bobcat",
+    "taxonomy": "Lynx rufus rufus",
+    "bova_id": "50051",
+    "url": "http://www.dgif.virginia.gov/wildlife/information/?s=050051"
+  },
+  "seasons": [
+    {
 			"method": "traps",
 			"range": [
 				{
@@ -34,5 +34,5 @@
 			"bag_limit": "The season bag limit shall be 12 bobcats in the aggregate, taken by hunting and trapping combined.",
 			"comment": "All trapped bobcats must be reported within 24 hours through the Department’s electronic harvest reporting system. A CITES tag may also be required for some bobcats. Please “Hunting & Trapping in Virginia” for details regarding electronic bobcat checking and CITIES tagging procedures."
 		}
-	}
+  ]
 }

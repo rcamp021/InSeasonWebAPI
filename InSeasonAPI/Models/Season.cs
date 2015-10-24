@@ -13,5 +13,6 @@ namespace InSeasonAPI.Models
         public List<string> method_rules { get; set; }
         public List<string> method { get; set; }
         public List<Range> range { get; set; }
+        public string comment { get; set; }
     }
 }
