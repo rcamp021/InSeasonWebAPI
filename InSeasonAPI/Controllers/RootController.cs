@@ -14,35 +14,39 @@ namespace InSeasonAPI.Controllers
         [Route("something")]
         public IHttpActionResult Get()
         {
-            return this.Ok("WHUT");
+            return Ok("WHUT");
         }
 
         /// <summary>
         /// Get a county from a county code
         /// </summary>
-        /// <param name="county"></param>
-        /// <returns></returns>
+        /// <param name="county">the county id to convert to a gnis id</param>
+        /// <returns>The county</returns>
         [Route("getCountyLocation/{county}")]
         public IHttpActionResult CountyToGnis(string county)
         {
             var data = new Utils.Converter().CountyToGnis(Int32.Parse(county));
 
-            return this.Ok(data);
+            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(data));
         }
 
         /// <summary>
         /// Get a county from a gnis identifier
         /// </summary>
-        /// <param name="gnis"></param>
-        /// <returns></returns>
+        /// <param name="gnis">The gnis id to convert to a county id</param>
+        /// <returns>The county</returns>
         [Route("getGnisLocation/{gnis}")]
         public IHttpActionResult GnisToCounty(string gnis)
         {
             var data = new Utils.Converter().GnisToCounty(Int32.Parse(gnis));
 
-            return this.Ok(data);
+            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(data));
         }
 
+        /// <summary>
+        /// Get a list of all the animals
+        /// </summary>
+        /// <returns>Array of animals</returns>
         [Route("animals")]
         public IHttpActionResult GetAnimals()
         {
@@ -50,7 +54,7 @@ namespace InSeasonAPI.Controllers
                                      .Select(path => Path.GetFileNameWithoutExtension(path))
                                      .ToArray();
 
-            return this.Ok(filenames);
+            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(filenames));
         }
 
         private Hunting getdata()
