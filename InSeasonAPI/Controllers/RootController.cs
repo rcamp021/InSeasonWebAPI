@@ -14,12 +14,6 @@ namespace InSeasonAPI.Controllers
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class RootController : ApiController
     {
-        [Route("something")]
-        public IHttpActionResult Get()
-        {
-            return Ok("WHUT");
-        }
-
         /// <summary>
         /// Get a county from a county code
         /// </summary>
