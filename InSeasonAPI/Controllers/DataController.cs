@@ -55,10 +55,12 @@ namespace InSeasonAPI.Controllers
                                     x => ids.Contains(TypeConvert.StrToIntDef(x.gnis_id, 0)
                                  ))
                                );
+                                if(returnData.Where(x => x.Season.name == ranges.name).FirstOrDefault() == null)
+                                returnData.Add(new ReturnInfo(ranges, localRestrictions));
                             }
                         }
                     }
-                    returnData.Add(new ReturnInfo(ranges, localRestrictions));
+                  
                 }
                 return Ok(returnData);
             }
