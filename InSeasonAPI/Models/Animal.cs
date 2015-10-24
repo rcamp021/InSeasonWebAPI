@@ -9,6 +9,6 @@ namespace InSeasonAPI.Models
     {
         public string human { get; set; }
 
-        public string filename { get; set; }
+        public string key { get; set; }
     }
 }

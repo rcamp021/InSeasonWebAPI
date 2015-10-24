@@ -62,7 +62,7 @@ namespace InSeasonAPI.Controllers
             {
                 animals.Add(new Animal
                 {
-                    filename = filename,
+                    key = filename,
                     human = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(filename).Replace('_', ' ')
                 });
             }
