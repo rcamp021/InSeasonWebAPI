@@ -61,8 +61,6 @@ namespace InSeasonAPI.Controllers
                     }
                     returnData.Add(new ReturnInfo(ranges, localRestrictions));
                 }
-                //var returnData = new ReturnInfo(sea)
-                // return this.Ok(localRestrictions);
                 return Ok(returnData);
             }
         }

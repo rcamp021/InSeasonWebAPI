@@ -13,6 +13,7 @@ namespace InSeasonAPI.Models
        public ReturnInfo(Season season, List<Location> locs)
         {
             Season = season;
+            season.range = null;
             LocalRestrictions = locs;
         }
 
