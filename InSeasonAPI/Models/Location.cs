@@ -10,5 +10,7 @@ namespace InSeasonAPI.Models
     {
         public string gnis_id { get; set; }
         public string fips_code { get; set; }
+
+        public string restriction { get; set; }
     }
 }

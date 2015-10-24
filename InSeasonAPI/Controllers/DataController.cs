@@ -26,31 +26,40 @@ namespace InSeasonAPI.Controllers
             using (StreamReader reader = new StreamReader(System.Web.HttpContext.Current.Server.MapPath(string.Format("~/App_Data/animals/{0}.json", animal))))
             {
                 Hunting animalobj= await System.Threading.Tasks.Task.Factory.StartNew(() => JsonConvert.DeserializeObject<Hunting>(reader.ReadToEnd()));
-                List<List<Range>> seasons = animalobj.seasons.Select(x => x.range.Where(y => DateConverter.ConvertToDateTime(date)  >= DateConverter.ConvertToDateTime(y.season.date.starts) &&
-                DateConverter.ConvertToDateTime(date) <= DateConverter.ConvertToDateTime(y.season.date.ends)).ToList()).ToList();
 
                 var conversion = new Utils.Converter();
                 var ids = conversion.CountyToGnis(Convert.ToInt32(countyID)).Select(x => x.FEATURE_ID).ToList();
 
-                //List<int> gnissids = ids.Select(gnisCountyDefinition => gnisCountyDefinition.FEATURE_ID).ToList();
-
-                if (seasons != null)
+                List<List<Range>> seasons = (from s in animalobj.seasons select s.range).ToList();
+                var localRestrictions = new List<Location>();
+                foreach (var ranges in seasons)
                 {
-                    var countiesRestrictions = seasons.Select(x => x.Where( y => ids.Contains(TypeConvert.StrToIntDef(y.places.Select(z => z.Value.gnis_id).FirstOrDefault(),0))));
-                    var t = "n";
-
-                    foreach (var item in countiesRestrictions)
+                    foreach (var range in ranges)
                     {
-                        if(item == null)
+                        if (range?.season?.date != null)
                         {
-                   
+                            if (DateConverter.ConvertToDateTime(date) >=
+                                DateConverter.ConvertToDateTime(range.season.date.starts) &&
+                                DateConverter.ConvertToDateTime(date) <= DateConverter.ConvertToDateTime(range.season.date.ends)
+                                )
+                            {
+                                var vals = range.places.Values;
+                                localRestrictions.AddRange(vals.Select(val => new Location
+                                {
+                                    gnis_id = val.gnis_id,
+                                    fips_code = val.fips_code,
+                                    restriction = val.restriction
+                                }).Where(
+                                    x => x.restriction != null 
+                                    && ids.Contains(TypeConvert.StrToIntDef(x.gnis_id, 0)
+                                 ))
+                               );
+                            }
                         }
                     }
-                    // any place where the location == anything in ids
-                    var ret = countiesRestrictions.Select(x => x.Where(y => y.places != null && x != null).Select(w => w.places.Select(z => z.Value)));
-                    return Ok(ret);
                 }
-                return null;
+                
+                return this.Ok(localRestrictions);
             }
         }
     }
