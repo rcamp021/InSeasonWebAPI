@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using InSeasonAPI.Models;
 using System.Web;
 using System.Web.Http.Cors;
+using System.Web.Http.Description;
 
 namespace InSeasonAPI.Controllers
 {
@@ -19,6 +20,7 @@ namespace InSeasonAPI.Controllers
         /// </summary>
         /// <param name="county">the county id to convert to a gnis id</param>
         /// <returns>The county</returns>
+        [ResponseType(typeof(List<GnisCountyDefinition>))]
         [Route("getCountyLocation/{county}")]
         public IHttpActionResult CountyToGnis(string county)
         {
@@ -32,6 +34,7 @@ namespace InSeasonAPI.Controllers
         /// </summary>
         /// <param name="gnis">The gnis id to convert to a county id</param>
         /// <returns>The county</returns>
+        [ResponseType(typeof(GnisCountyDefinition))]
         [Route("getGnisLocation/{gnis}")]
         public IHttpActionResult GnisToCounty(string gnis)
         {
@@ -44,6 +47,7 @@ namespace InSeasonAPI.Controllers
         /// Get a list of all the animals
         /// </summary>
         /// <returns>Array of animals</returns>
+        [ResponseType(typeof(List<string>))]
         [Route("animals")]
         public IHttpActionResult GetAnimals()
         {

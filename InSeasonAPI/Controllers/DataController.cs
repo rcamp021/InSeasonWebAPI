@@ -8,9 +8,12 @@ using System.Web.Http;
 using InSeasonAPI.Models;
 using Newtonsoft.Json;
 using InSeasonAPI.Utils;
+using System.Web.Http.Description;
+using System.Web.Http.Cors;
 
 namespace InSeasonAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class DataController : ApiController
     {
         /// <summary>
@@ -20,6 +23,7 @@ namespace InSeasonAPI.Controllers
         /// <param name="date"></param>
         /// <param name="countyID"></param>
         /// <returns></returns>
+        [ResponseType(typeof(List<ReturnInfo>))]
         [Route("GetCounty/{animal}/{date}/{countyID}")]
         public async System.Threading.Tasks.Task<IHttpActionResult> Get(string animal, string date, string countyID)
         {
