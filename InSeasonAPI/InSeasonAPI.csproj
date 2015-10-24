@@ -165,6 +165,7 @@
     <Compile Include="Models\mydate.cs" />
     <Compile Include="Models\NestedSeason.cs" />
     <Compile Include="Models\Range.cs" />
+    <Compile Include="Models\ReturnInfo.cs" />
     <Compile Include="Models\Season.cs" />
     <Compile Include="Models\Species.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

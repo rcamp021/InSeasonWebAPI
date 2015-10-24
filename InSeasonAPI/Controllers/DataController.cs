@@ -25,16 +25,18 @@ namespace InSeasonAPI.Controllers
         {
             using (StreamReader reader = new StreamReader(System.Web.HttpContext.Current.Server.MapPath(string.Format("~/App_Data/animals/{0}.json", animal))))
             {
-                Hunting animalobj= await System.Threading.Tasks.Task.Factory.StartNew(() => JsonConvert.DeserializeObject<Hunting>(reader.ReadToEnd()));
+                Hunting animalobj = await System.Threading.Tasks.Task.Factory.StartNew(() => JsonConvert.DeserializeObject<Hunting>(reader.ReadToEnd()));
 
                 var conversion = new Utils.Converter();
                 var ids = conversion.CountyToGnis(Convert.ToInt32(countyID)).Select(x => x.FEATURE_ID).ToList();
 
-                List<List<Range>> seasons = (from s in animalobj.seasons select s.range).ToList();
-                var localRestrictions = new List<Location>();
-                foreach (var ranges in seasons)
+              //  var seasons = (from s in animalobj.seasons select s).ToList();
+               
+                List<ReturnInfo> returnData = new List<ReturnInfo>();
+                foreach (var ranges in animalobj.seasons)
                 {
-                    foreach (var range in ranges)
+                    var localRestrictions = new List<Location>();
+                    foreach (var range in ranges.range)
                     {
                         if (range?.season?.date != null)
                         {
@@ -57,9 +59,11 @@ namespace InSeasonAPI.Controllers
                             }
                         }
                     }
+                    returnData.Add(new ReturnInfo(ranges, localRestrictions));
                 }
-                
-                return this.Ok(localRestrictions);
+                //var returnData = new ReturnInfo(sea)
+                // return this.Ok(localRestrictions);
+                return Ok(returnData);
             }
         }
     }
