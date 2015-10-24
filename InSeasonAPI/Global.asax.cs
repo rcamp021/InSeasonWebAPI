@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Newtonsoft.Json;
+using System.Net.Http.Formatting;
 using System.Web.Http;
 using System.Web.Mvc;
-using System.Web.Optimization;
-using System.Web.Routing;
 
 namespace InSeasonAPI
 {
@@ -15,6 +11,12 @@ namespace InSeasonAPI
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+
+            //json stuff
+            GlobalConfiguration.Configuration.Formatters.Clear();
+            GlobalConfiguration.Configuration.Formatters.Add(new JsonMediaTypeFormatter());
+            JsonSerializerSettings jSettings = new Newtonsoft.Json.JsonSerializerSettings();
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings = jSettings;
         }
     }
 }
