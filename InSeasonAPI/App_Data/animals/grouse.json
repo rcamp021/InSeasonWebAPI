@@ -12,8 +12,8 @@
 		"bova_id": "40099",
 		"url": "http://www.dgif.virginia.gov/wildlife/grouse/"
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"range": [
 				{
@@ -35,5 +35,5 @@
 				}
 			]
 		}
-	}
+	]
 }

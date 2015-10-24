@@ -176,7 +176,7 @@
     <Content Include="App_Data\animals\bear.json" />
     <Content Include="App_Data\animals\beaver.json" />
     <Content Include="App_Data\animals\bobcat.json" />
-    <Content Include="App_Data\animals\Unedited\deer.json" />
+    <Content Include="App_Data\animals\deer.json" />
     <Content Include="App_Data\GNIS-County-Definitions.csv" />
     <Content Include="App_Data\index.json" />
     <Content Include="App_Data\local_ordinances.json" />
@@ -197,12 +197,12 @@
   <ItemGroup>
     <Content Include="App_Data\animals\coyote.json" />
     <Content Include="App_Data\animals\crow.json" />
-    <Content Include="App_Data\animals\Unedited\feral_hogs.json" />
-    <Content Include="App_Data\animals\Unedited\groundhog.json" />
-    <Content Include="App_Data\animals\Unedited\grouse.json" />
-    <Content Include="App_Data\animals\Unedited\mink.json" />
-    <Content Include="App_Data\animals\Unedited\muskrat.json" />
-    <Content Include="App_Data\animals\Unedited\nutria.json" />
+    <Content Include="App_Data\animals\feral_hogs.json" />
+    <Content Include="App_Data\animals\groundhog.json" />
+    <Content Include="App_Data\animals\grouse.json" />
+    <Content Include="App_Data\animals\mink.json" />
+    <Content Include="App_Data\animals\muskrat.json" />
+    <Content Include="App_Data\animals\nutria.json" />
     <Content Include="App_Data\animals\opossum.json" />
     <Content Include="App_Data\animals\otter.json" />
     <Content Include="App_Data\animals\pheasant.json" />

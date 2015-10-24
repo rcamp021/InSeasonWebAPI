@@ -7,21 +7,20 @@
 	"schema_version": "1.0a",
 	"documentation": "http://rooseveltschema.org/",
 	"species": {
-		"name": "feral hog",
-		"aliases": ["wild hog", "wild pig", "wild boar", "Russian boar"],
-		"taxonomy": "Sus scrofa",
-		"url": "http://www.dgif.virginia.gov/wildlife/feral-hogs/hunting-faq/" 
+		"name": "nutria",
+		"taxonomy": "Myocastor coypus",
+		"bova_id": "50053",
+		"url": "http://www.dgif.virginia.gov/wildlife/information/?s=050053" 
 	},
-	"seasons": {
-		"season": {
-			"method": ["traps", "modern firearms", "muzzleloading firearms", "archery tackle"],
+	"seasons": [
+		 {
+			"method": "traps",
 			"range": [
 				{
 					"places": {
 						"Virginia": {
 							"gnis_id": 1779803,
-							"fips_code": 51,
-							"restriction": "on private lands"
+							"fips_code": 51
 						}
 					},
 					"season": {
@@ -33,5 +32,5 @@
 				}
 			]
 		}
-	}
+	]
 }

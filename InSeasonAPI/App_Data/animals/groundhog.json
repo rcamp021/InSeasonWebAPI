@@ -13,8 +13,8 @@
 		"bova_id": "50054",
 		"url": "http://www.dgif.virginia.gov/hunting/regulations/smallgame.asp" 
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"method": ["traps", "modern firearms", "muzzleloading firearms", "archery tackle"],
 			"range": [
 				{
@@ -67,5 +67,5 @@
 				}
 			]
 		}
-	}
+	]
 }
