@@ -46,11 +46,11 @@ namespace InSeasonAPI.Controllers
         [Route("animals")]
         public IHttpActionResult GetAnimals()
         {
-            var filenames = Directory.GetFiles("C:\\Documents", "*.json")
-                                     .Select(path => Path.GetFileName(path))
+            var filenames = Directory.GetFiles(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/animals/"), "*.json")
+                                     .Select(path => Path.GetFileNameWithoutExtension(path))
                                      .ToArray();
 
-            return this.Ok(data);
+            return this.Ok(filenames);
         }
 
         private Hunting getdata()
