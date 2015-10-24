@@ -63,14 +63,5 @@ namespace InSeasonAPI.Controllers
 
             return Ok(animals);
         }
-
-        private Hunting getdata()
-        {
-            using (StreamReader sr = new StreamReader(System.Web.HttpContext.Current.Server.MapPath("~/App_Data/crow.json")))
-            {
-                return JsonConvert.DeserializeObject<Hunting>(sr.ReadToEnd());
-            }
-
-        }
     }
 }
