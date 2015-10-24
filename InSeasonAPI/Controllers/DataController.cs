@@ -29,9 +29,15 @@ namespace InSeasonAPI.Controllers
                 var seasons = animalobj.seasons.Select(x => x.range.Where(y => DateConverter.ConvertToDateTime(y.season.date.starts) >= date && DateConverter.ConvertToDateTime(y.season.date.ends) <= date)).FirstOrDefault();
 
                 var conversion = new Utils.Converter();
-                var id = conversion.CountyToGnis(Convert.ToInt32(countyID));
+                var ids = conversion.CountyToGnis(Convert.ToInt32(countyID)).Select(x => x.FEATURE_ID).ToList();
 
-                var counties = seasons.Select(x => x.places.Where(y => y.Key == id.ForEach(z)));
+                //List<int> gnissids = ids.Select(gnisCountyDefinition => gnisCountyDefinition.FEATURE_ID).ToList();
+
+                if (seasons != null)
+                {
+                    var countiesRestrictions = seasons.Select(x => x.places.Where( y => ids.Contains(y.Value.gnis_id) ) ).ToList();
+                    // any place where the location == anything in ids
+                }
                 return null;
             }
         }
