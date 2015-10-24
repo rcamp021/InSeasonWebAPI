@@ -52,8 +52,7 @@ namespace InSeasonAPI.Controllers
                                     fips_code = val.fips_code,
                                     restriction = val.restriction
                                 }).Where(
-                                    x => x.restriction != null 
-                                    && ids.Contains(TypeConvert.StrToIntDef(x.gnis_id, 0)
+                                    x => ids.Contains(TypeConvert.StrToIntDef(x.gnis_id, 0)
                                  ))
                                );
                             }
