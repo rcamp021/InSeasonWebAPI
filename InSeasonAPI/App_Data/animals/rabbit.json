@@ -63,8 +63,8 @@
 			}
 		]
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"range": [
 				{
@@ -84,7 +84,7 @@
 			],
 			"bag_limit": "Six per day."
 		},
-		"season": {
+		 {
 			"method": "traps",
 			"range": [
 				{
@@ -104,5 +104,5 @@
 			],
 			"comment": "No traps shall be set on the lands of another without written permission of the landowner. Trappers using box traps for rabbits do not need a license."
 		}
-	}
+	]
 }

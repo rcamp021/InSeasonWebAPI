@@ -13,8 +13,8 @@
 		"bova_id": "50001",
 		"url": "http://www.dgif.virginia.gov/wildlife/information/?s=050001"
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"method": "firearm",
 			"range": [
 				{
@@ -95,5 +95,5 @@
 				}
 			]
 		}
-	}
+	]
 }

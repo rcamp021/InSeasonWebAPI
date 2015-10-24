@@ -13,8 +13,8 @@
 		"bova_id": "40102",
 		"url": "http://www.dgif.virginia.gov/wildlife/turkey/"
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"name": "Archery Turkey Season",
 			"method": "archery tackle",
 			"method_rules": [
@@ -42,7 +42,7 @@
 				}
 			]
 		},
-		"season": {
+		{
 			"name": "Youth and Apprentice Fall Turkey Hunting Day",
 			"method": "archery tackle",
 			"method_rules": [
@@ -76,7 +76,7 @@
 			"comment": "Youth and Apprentice Fall Turkey Hunting Day",
 			"bag_limit": "One per day, either sex."
 		},
-		"season": {
+		{
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"method_rules": [
 				"Decoys and blinds may be used.",
@@ -395,7 +395,7 @@
 				}
 			]
 		},
-		"season": {
+	  {
 			"name": "Fall Firearms Turkey Season",
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"method_rules": [
@@ -514,7 +514,7 @@
 				}
 			]
 		},
-		"season": {
+		{
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"method_rules": [
 				"Decoys and blinds may be used.",
@@ -582,7 +582,7 @@
 				}
 			]
 		},
-		"season": {
+	  {
 			"name": "Youth and Apprentice Spring Turkey Hunting Day",
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"method_rules": [
@@ -617,7 +617,7 @@
 			],
 			"bag_limit": "One per day, bearded birds only"
 		},
-		"season": {
+		{
 			"name": "Spring Turkey Season",
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"method_rules": [
@@ -658,5 +658,5 @@
 			],
 			"bag_limit": "One per day, bearded turkeys only. Hunters may take one, two, or three bearded turkeys depending on how many turkeys were taken in the fall season."
 		}
-	}
+	]
 }

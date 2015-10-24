@@ -23,8 +23,8 @@
 			}
 		]
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		{
 			"method": "traps",
 			"range": [
 				{
@@ -44,7 +44,7 @@
 			],
 			"comment": "There is a continuous open season to trap raccoon within the incorporated limits of any city or town in the Commonwealth, and in the counties of Arlington, Chesterfield, Fairfax, Henrico, James City, Loudoun, Prince William, Spotsylvania, Stafford, Roanoke, and York."
 		},
-		"season": {
+		{
 			"method": ["modern firearms", "muzzleloading firearms"],
 			"range": [
 				{
@@ -67,5 +67,5 @@
 			"comment": "A person may hunt raccoons until 2:00 a.m. on Sundays, but no other Sunday hunting of raccoons is permitted.",
 			"bag_limit": "East of the Blue Ridge: Two per hunter taken between noon one day and noon the following day. West of the Blue Ridge: Two per hunting party (individual or organized) taken between noon one day and noon the following day."
 		}
-	}
+	]
 }

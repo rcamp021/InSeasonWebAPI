@@ -13,8 +13,8 @@
 		"bova_id": "40100",
 		"url": "http://www.dgif.virginia.gov/quail/"
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"method": ["modern firearms", "muzzleloading firearms", "archery tackle"],
 			"range": [
 				{
@@ -34,5 +34,5 @@
 			],
 			"bag_limit": "Six per day."
 		}
-	}
+	]
 }

@@ -23,8 +23,8 @@
 			}
 		]
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"method": "traps",
 			"range": [
 				{
@@ -43,5 +43,5 @@
 				}
 			]
 		}
-	}
+	]
 }

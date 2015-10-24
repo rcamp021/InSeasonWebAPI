@@ -12,8 +12,8 @@
 		"bova_id": "50045",
 		"url": "http://www.dgif.virginia.gov/wildlife/information/?s=050045" 
 	},
-	"seasons": {
-		"season": {
+	"seasons": [
+		 {
 			"method": "traps",
 			"range": [
 				{
@@ -31,8 +31,8 @@
 					}
 				}
 			],
-			"bag_limit": "The season bag limit shall be 4 otters in all counties west of the Blue Ridge. There is no season bag limit in counties east of the Blue Ridge."
-		},
-		"comment": "Otter pelts that are sold, traded, or transported out of state must also have a CITES tag affixed to each animal. No CITES tag is needed to have an otter mounted by a Virginia taxidermist or ship an otter pelt out-of-state for tanning purposes (unless required by the state where the tannery is located). To obtain a CITES tag, contact a local Conservation Police Officer through your nearest Department regional office. If an otter pelt is required to have a CITES tag affixed, it must by tagged by April 1."
-	}
+      "bag_limit": "The season bag limit shall be 4 otters in all counties west of the Blue Ridge. There is no season bag limit in counties east of the Blue Ridge."
+      "comment": "Otter pelts that are sold, traded, or transported out of state must also have a CITES tag affixed to each animal. No CITES tag is needed to have an otter mounted by a Virginia taxidermist or ship an otter pelt out-of-state for tanning purposes (unless required by the state where the tannery is located). To obtain a CITES tag, contact a local Conservation Police Officer through your nearest Department regional office. If an otter pelt is required to have a CITES tag affixed, it must by tagged by April 1."
+		}
+	]
 }
