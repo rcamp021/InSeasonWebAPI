@@ -1,14 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Web.Http;
 using Newtonsoft.Json;
 using InSeasonAPI.Models;
 using System.Web;
+using System.Web.Http.Cors;
 
 namespace InSeasonAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class RootController : ApiController
     {
         [Route("something")]
@@ -54,7 +57,17 @@ namespace InSeasonAPI.Controllers
                                      .Select(path => Path.GetFileNameWithoutExtension(path))
                                      .ToArray();
 
-            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(filenames));
+            var animals = new List<Animal>();
+            foreach (var filename in filenames)
+            {
+                animals.Add(new Animal
+                {
+                    filename = filename,
+                    human = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(filename).Replace('_', ' ')
+                });
+            }
+
+            return Ok(Newtonsoft.Json.JsonConvert.SerializeObject(animals));
         }
 
         private Hunting getdata()
